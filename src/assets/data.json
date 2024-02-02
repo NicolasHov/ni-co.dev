@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "cursus": "BSc in Applied Maths & Sociology",
+        "university": "Paris 7",
+        "dates": "Sept. 2011 - July 2012",
+        "type": "University"
+    },
+    {
+        "id": 2,
+        "cursus": "MSc in Stats & Sociology",
+        "university": "ENS & ENSAE & EHESS",
+        "dates": "Sept. 2011 - July 2012",
+        "type": "University"
+    },
+    {
+        "id": 3,
+        "cursus": "MSc in Education Sciences",
+        "university": "Paris 5",
+        "dates": "Sept. 2011 - July 2012",
+        "type": "University"
+    }
+]
