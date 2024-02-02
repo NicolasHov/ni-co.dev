@@ -28,7 +28,7 @@ export const ResumeReminder = () => {
                     <input className="search-bar" placeholder="🔍  Hovart Nicolas" />
                     <div className="subsection">
                         <div className="education">
-                            <div className="title-2">Educations</div>
+                            <div className="title-2">Education</div>
                             {education.map(item => {
                                 return (
                                     <Card_item item={item} />
