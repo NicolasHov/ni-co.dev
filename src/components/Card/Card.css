@@ -46,19 +46,16 @@
 }
 
 .info {
-    line-height: 0.6em;
+    line-height: 0.8em;
 }
 
 /* ####### LINKS ########## */
 
 .link_name {
-    /* text-decoration: underline; */
-    /* text-decoration-line: underline;
-    text-decoration-thickness: 1px; */
-    /* border-bottom: 1px solid white; */
     font-size: 0.65em;
-    line-height: 21px;
+    line-height: 19px;
     position: relative;
+    margin-left: 11px;
 }
 
 .link_name:after {

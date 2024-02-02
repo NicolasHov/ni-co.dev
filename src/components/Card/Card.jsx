@@ -44,6 +44,7 @@ const Card_education = (item) => {
 // theme links
 const Card_links = (item) => {
     let colors = ["#BCD0F7", "#C7F3CF", "#F7F7BC", , "#d30c7b", "#7fffd4"]
+    // let random_num = Math.floor(Math.random() * colors.length)
     return (
         <div key={item.id} className="card link">
             <div className="ellipse-educ">
