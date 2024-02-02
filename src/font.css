@@ -3,3 +3,9 @@
     src: local('SF-Pro'),
         url('./assets/fonts/SF-Pro-Rounded-Regular.otf') format('otf'),
 }
+
+@font-face {
+    font-family: 'Somebercum';
+    src: local('Somebercum'),
+        url('./assets/fonts/Somebercum_Sans_Serif.woff') format('woff'),
+}

@@ -135,4 +135,24 @@
     color: white;
     opacity: 0.5;
     font-weight: bold;
+    margin-left: 8px;
+}
+
+/* ###  links #### */
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+
+/* ###  skills #### */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill_title {
+    flex-basis: 100%;
 }

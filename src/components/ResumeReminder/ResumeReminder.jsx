@@ -3,8 +3,8 @@ import React from "react";
 import "./ResumeReminder.css";
 import Draggable from 'react-draggable';
 import '../../assets/fonts/SF-Pro-Rounded-Regular.otf'
-import education from '../../assets/data.json'
-import Card_item from '../Card_item/Card_item.jsx'
+import data from '../../assets/data.json'
+import Card from '../Card/Card.jsx'
 
 export const ResumeReminder = () => {
     return (
@@ -29,16 +29,37 @@ export const ResumeReminder = () => {
                     <div className="subsection">
                         <div className="education">
                             <div className="title-2">Education</div>
-                            {education.map(item => {
+                            {data.education.map(item => {
                                 return (
-                                    <Card_item item={item} />
+                                    <Card theme={"education"} item={item} />
                                 )
                             })}
                         </div>
-                        <div className="skills"></div>
-                        <div className="tools"></div>
+                        <div className="links">
+                            <div className="title-2">Links</div>
+                            {data.links.map(item => {
+                                return (
+                                    <Card theme={"links"} item={item} />
+                                )
+                            })}
+                        </div>
+                        <div className="skills">
+                            <div className="title-2 skill_title">Skills</div>
+                            {data.skills.map(item => {
+                                return (
+                                    <Card theme={"skills"} item={item} />
+                                )
+                            })}
+                        </div>
+                        <div className="skills">
+                            <div className="title-2 skill_title">Tools</div>
+                            {data.tools.map(item => {
+                                return (
+                                    <Card theme={"skills"} item={item} />
+                                )
+                            })}
+                        </div>
                         <div className="achievements"></div>
-                        <div className="links"></div>
                     </div>
                     <div className="add-list"></div>
                     <div className="buttons"></div>

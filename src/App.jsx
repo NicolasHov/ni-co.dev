@@ -1,4 +1,4 @@
-import reactLogo from './assets/react.svg'
+import reactLogo from './assets/images/react.svg'
 import './App.css'
 import { ResumeReminder } from './components/ResumeReminder/ResumeReminder'
 

@@ -1,23 +1,107 @@
-[
-    {
-        "id": 1,
-        "cursus": "BSc in Applied Maths & Sociology",
-        "university": "University of Paris 7",
-        "dates": "Sept. 2011 - July 2012",
-        "type": "University"
-    },
-    {
-        "id": 2,
-        "cursus": "MSc in Stats & Sociology",
-        "university": "ENS & ENSAE & EHESS",
-        "dates": "Sept. 2011 - July 2012",
-        "type": "University"
-    },
-    {
-        "id": 3,
-        "cursus": "MSc in Education Sciences",
-        "university": "University of Paris 5",
-        "dates": "Sept. 2011 - July 2012",
-        "type": "University"
-    }
-]
+{
+    "education": [
+        {
+            "id": 1,
+            "cursus": "BSc in Applied Maths & Sociology",
+            "university": "University of Paris 7",
+            "dates": "Sept. 2011 - July 2012",
+            "type": "University"
+        },
+        {
+            "id": 2,
+            "cursus": "MSc in Stats & Sociology",
+            "university": "ENS & ENSAE & EHESS",
+            "dates": "Sept. 2011 - July 2012",
+            "type": "University"
+        },
+        {
+            "id": 3,
+            "cursus": "MSc in Education Sciences",
+            "university": "University of Paris 5",
+            "dates": "Sept. 2011 - July 2012",
+            "type": "University"
+        }
+    ],
+    "links": [
+        {
+            "id": 1,
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/nicolas-hovart-ba20b834/",
+            "icon_path": "../src/assets/images/diamond.png"
+        },
+        {
+            "id": 2,
+            "name": "Portfolio",
+            "link": "https://nicolashov.github.io",
+            "icon_path": "../src/assets/images/bot.png"
+        },
+        {
+            "id": 3,
+            "name": "GitHub",
+            "link": "https://github.com/NicolasHov",
+            "icon_path": "../src/assets/images/github.png"
+        },
+        {
+            "id": 4,
+            "name": "Mastodon",
+            "link": "https://hachyderm.io/@Nicolas_ho",
+            "icon_path": "../src/assets/images/diamond2.png"
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "name": "JavaScript"
+        },
+        {
+            "id": 2,
+            "name": "TypeScript"
+        },
+        {
+            "id": 3,
+            "name": "ReactJS"
+        },
+        {
+            "id": 4,
+            "name": "VueJS"
+        },
+        {
+            "id": 5,
+            "name": "NodejS"
+        },
+        {
+            "id": 6,
+            "name": "NextJS"
+        },
+        {
+            "id": 7,
+            "name": "Python"
+        },
+        {
+            "id": 8,
+            "name": "Rust"
+        },
+        {
+            "id": 9,
+            "name": "SQL"
+        },
+        {
+            "id": 10,
+            "name": "MongoDB"
+        }
+    ],
+    "tools": [
+        {
+            "id": 1,
+            "name": "Git"
+        },
+        {
+            "id": 2,
+            "name": "Shell"
+        },
+        {
+            "id": 3,
+            "name": "NixOS"
+        }
+    ]
+}

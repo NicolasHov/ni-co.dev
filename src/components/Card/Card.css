@@ -1,0 +1,94 @@
+/* ####### CARD ########## */
+
+.card {
+    /* height: 213px; */
+    margin-top: 4px;
+    border-radius: 8px;
+    background: rgba(204, 204, 204, 0.63);
+    display: flex;
+    flex-direction: row;
+    padding: 9px 0 9px 0;
+    margin-bottom: 4px;
+    /* to avoid jump : */
+    border: 1px transparent solid;
+}
+
+
+.card:hover {
+    border: 1px black solid;
+    cursor: pointer;
+}
+
+.ellipse-space {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse-educ {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 29px;
+    text-align: right;
+}
+
+.ellipse-link {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 29px;
+    text-align: right;
+}
+
+.info {
+    line-height: 0.6em;
+}
+
+/* ####### LINKS ########## */
+
+.link_name {
+    /* text-decoration: underline; */
+    /* text-decoration-line: underline;
+    text-decoration-thickness: 1px; */
+    /* border-bottom: 1px solid white; */
+    font-size: 0.65em;
+    line-height: 21px;
+    position: relative;
+}
+
+.link_name:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    display: block;
+    height: 1px;
+    background-color: white;
+    bottom: -1px;
+}
+
+.link {
+    background: transparent;
+    padding: 0 0 0 0;
+}
+
+.link:hover {
+    border: 1px transparent solid;
+}
+
+/* ####### SKILLS ########## */
+
+.skill {
+    padding: 4px 4px 4px 4px;
+    border-radius: 5px;
+    background: rgba(204, 204, 204, 0.301);
+    margin-left: 9px;
+}
+
+.skill:hover {
+    border: 1px transparent solid;
+}
