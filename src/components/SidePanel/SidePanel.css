@@ -1,0 +1,114 @@
+.side-panel {
+    width: 239px;
+    height: 752px;
+    background-color: #292B2B;
+    opacity: 0.7;
+    border-radius: 20px 0 0 20px;
+    padding: 0 8px 0 8px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+/* ###  BUTTONS #### */
+.buttons {
+    width: 37px;
+    height: 10px;
+    margin: 14px 0 0 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons .ellipse1,
+.ellipse2,
+.ellipse3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.ellipse1 {
+    background-color: #EC6A5E;
+}
+
+.ellipse2 {
+    background-color: #F4BF4F;
+}
+
+.ellipse3 {
+    background-color: #61C554;
+}
+
+.ellipse {
+    text-align: center;
+    line-height: 7px;
+}
+
+.hover_class {
+    color: black;
+    font-size: smaller;
+}
+
+.ellipse .hover_class {
+    visibility: hidden;
+}
+
+.buttons:hover .hover_class {
+    visibility: visible;
+    cursor: pointer;
+}
+
+/* ###  SEARCHBAR #### */
+
+.search-bar {
+    width: 213px;
+    height: 26px;
+    margin-top: 12px;
+    border-radius: 8px;
+    background: rgba(204, 204, 204, 0.11);
+    color: rgba(255, 255, 255, 0.486);
+    border: 1px solid #ffffff1c;
+}
+
+/* ###  subsection #### */
+
+.subsection {
+    /* width: 218px; */
+    height: 610px;
+    margin-top: 7px;
+}
+
+/* ###  education #### */
+
+.education {
+    /* height: 178px; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title-2 {
+    color: white;
+    opacity: 0.5;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+/* ###  links #### */
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+
+/* ###  skills #### */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill_title {
+    flex-basis: 100%;
+}

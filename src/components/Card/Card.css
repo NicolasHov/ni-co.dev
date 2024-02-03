@@ -31,8 +31,8 @@
     height: 25px;
     border-radius: 50px;
     background-color: aquamarine;
-    text-align: center;
-    line-height: 29px;
+    /* text-align: center; */
+    /* line-height: 1.4375em; */
     text-align: right;
 }
 

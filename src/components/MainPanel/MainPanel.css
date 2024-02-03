@@ -1,0 +1,12 @@
+.main-panel {
+    width: 340px;
+    height: 752px;
+    background-color: #282B2B;
+    border-radius: 0 20px 20px 0;
+    /* box-shadow: 0px 5px 5px grey; */
+}
+
+.main-panel,
+.side-panel {
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.2)
+}
