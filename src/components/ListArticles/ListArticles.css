@@ -1,0 +1,36 @@
+.article-content {
+
+    /* margin: 0px 0px 3px 13px; */
+}
+
+.content-job {
+    margin: 3px 0px 3px 0px;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+.article-space {
+    margin: 4px 0px 3px 35px;
+}
+
+.job {
+    font-size: small;
+    font-weight: bold;
+}
+
+.info-job {
+    margin: 4px 0px 0px 0px;
+    font-size: 10px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.description {
+    margin: 4px 0px 0px 0px;
+}
+
+.technos {
+    flex-wrap: wrap;
+    margin-left: 10px;
+}

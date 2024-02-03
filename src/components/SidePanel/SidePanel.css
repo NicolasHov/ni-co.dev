@@ -118,14 +118,3 @@
     opacity: 0.8;
     font-weight: 500;
 }
-
-.circleLogo {
-    width: 19px;
-    height: 19px;
-}
-
-.filter-white {
-    filter: invert(100%);
-    opacity: 0.8;
-    align-self: center;
-}

@@ -13,6 +13,17 @@ h1 {
     /* margin-left: 8px; */
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+}
+
 .title-2 {
     color: white;
     opacity: 0.5;
@@ -28,8 +39,8 @@ h1 {
 
 .text-white {
     color: white;
-    font-size: 0.6em;
     font-weight: bold;
+    font-size: 0.6em;
 }
 
 .text-blue {
@@ -45,7 +56,13 @@ h1 {
     font-weight: bolder;
 }
 
+/* ###### */
+
 .separator {
     /* border: rgba(255, 255, 255, 0.477) 0.5px solid */
     border: #3E4040 1px solid;
+}
+
+.flex-text {
+    display: flex;
 }

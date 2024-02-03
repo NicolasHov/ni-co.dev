@@ -1,6 +1,7 @@
 import React from "react"
 import "./MainPanel.css"
 import ListArticles from "../ListArticles/ListArticles"
+import circleLogoFilled from '../../assets/images/circle-filled.svg'
 
 const MainPanel = ({ data }) => {
     return (
@@ -26,7 +27,6 @@ const MainPanel = ({ data }) => {
                                 Brussels, Belgium
                             </div>
                         </div>
-
                         <div className="separator"></div>
                     </div>
                     <div className="work-projects">
@@ -38,7 +38,10 @@ const MainPanel = ({ data }) => {
                                 <ListArticles data={data.experiences} theme={"experiences"} />
                             </div>
                             <div className="separator"></div>
-
+                            <div className="interstice">
+                                <img className="circleLogo filter-black" src={circleLogoFilled} />
+                            </div>
+                            <div className="separator"></div>
                             <div className="content">
                                 <h2 className="projects">
                                     Recent projects
@@ -46,7 +49,10 @@ const MainPanel = ({ data }) => {
                                 <ListArticles data={data.projects} theme={'projects'} />
                             </div>
                             <div className="separator"></div>
-
+                            <div className="interstice">
+                                <img className="circleLogo filter-black" src={circleLogoFilled} />
+                            </div>
+                            <div className="separator"></div>
                         </div>
                     </div>
                 </div>

@@ -1,8 +1,9 @@
 .main-panel {
-    width: 332px;
+    width: 400px;
     height: 752px;
     background-color: #282B2B;
     border-radius: 0 20px 20px 0;
+    margin-left: -1px;
     /* box-shadow: 0px 5px 5px grey; */
 }
 
@@ -34,3 +35,17 @@ h1 {
 
 
 /* #### WORK ##### */
+
+.work {
+    color: #FF4365;
+}
+
+.projects {
+    color: #F7F7BC;
+}
+
+/* #C03221 red */
+
+.interstice {
+    margin-top: 4px;
+}

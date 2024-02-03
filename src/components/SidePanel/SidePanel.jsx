@@ -38,9 +38,17 @@ const SidePanel = ({ data }) => {
                             )
                         })}
                     </div>
-                    <div className="skills">
+                    <div className="tools skills">
                         <div className="title-2 skill_title">Tools</div>
                         {data.tools.map(item => {
+                            return (
+                                <Card theme={"skills"} item={item} />
+                            )
+                        })}
+                    </div>
+                    <div className="interests skills">
+                        <div className="title-2 skill_title">Interests</div>
+                        {data.interests.map(item => {
                             return (
                                 <Card theme={"skills"} item={item} />
                             )

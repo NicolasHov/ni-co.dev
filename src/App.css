@@ -18,9 +18,28 @@
   transition: filter 300ms;
 }
 
+.circleLogo {
+  width: 19px;
+  height: 19px;
+}
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
   /* filter: drop-shadow(0 0 2em #61dafbaa); */
+}
+
+/* #### FILTERS ####### */
+
+.filter-white {
+  filter: invert(100%);
+  opacity: 0.8;
+  align-self: center;
+}
+
+.filter-black {
+  filter: invert(50%);
+  opacity: 0.8;
+  align-self: center;
 }
 
 h1 {

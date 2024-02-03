@@ -5,7 +5,7 @@
             "job": "Web development trainer",
             "company": "Becode.org",
             "place": "Paris",
-            "dates": "From May 2023...today)",
+            "dates": "From May 2023...today",
             "description": "Creation and management of a 7-months training in Full-Stack web development for a public in professional retraining.",
             "link": "https://gitlab.com/la-boussole/gaoblaze/track",
             "technos": [
@@ -49,7 +49,7 @@
         },
         {
             "id": 4,
-            "job": "Experiences as a web development trainer",
+            "job": "Development of features for an ERP software",
             "company": "Aniapps",
             "place": "Paris",
             "dates": "From April 2018 to July 2018",
@@ -64,13 +64,23 @@
     "projects": [
         {
             "id": 1,
-            "name": "project1",
-            "description": " ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but "
+            "name": "🧠 A memory game in ReactJS",
+            "technos": [
+                "ReactjS",
+                "ExpressJS"
+            ],
+            "link": "https://nicolashov.github.io/memory_react_fruits/",
+            "description": "A cool memory game and the API to store the highscores (not online yet).",
+            "other_link": "https://github.com/NicolasHov/memory_fruits_server"
         },
         {
             "id": 2,
-            "name": "project2",
-            "description": " ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but "
+            "name": "🔨 NPM package : A minimalist templating tool for TypeScript",
+            "technos": [
+                "TypeScript"
+            ],
+            "link": "https://github.com/NicolasHov/mouchetasse/tree/master",
+            "description": "Mouchetasse is a 🪰☕️ Minimalist Static site generator for TypeScript :{ "
         }
     ],
     "education": [
@@ -153,14 +163,10 @@
         },
         {
             "id": 8,
-            "name": "Rust"
-        },
-        {
-            "id": 9,
             "name": "SQL"
         },
         {
-            "id": 10,
+            "id": 9,
             "name": "MongoDB"
         }
     ],
@@ -174,10 +180,6 @@
             "name": "Shell"
         },
         {
-            "id": 3,
-            "name": "NixOS"
-        },
-        {
             "id": 4,
             "name": "Agility"
         },
@@ -188,6 +190,20 @@
         {
             "id": 6,
             "name": "Jest"
+        }
+    ],
+    "interests": [
+        {
+            "id": 1,
+            "name": "NixOS (Linux)"
+        },
+        {
+            "id": 2,
+            "name": "Rust"
+        },
+        {
+            "id": 3,
+            "name": "WebAssembly"
         }
     ]
 }
