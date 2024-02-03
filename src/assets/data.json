@@ -2,19 +2,63 @@
     "experiences": [
         {
             "id": 1,
-            "job": "job1",
-            "company": "ds",
-            "place": "",
-            "dates": "",
-            "description": " ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but "
+            "job": "Web development trainer",
+            "company": "Becode.org",
+            "place": "Paris",
+            "dates": "From May 2023...today)",
+            "description": "Creation and management of a 7-months training in Full-Stack web development for a public in professional retraining.",
+            "link": "https://gitlab.com/la-boussole/gaoblaze/track",
+            "technos": [
+                "ReactJS",
+                "TypeScript",
+                "NodeJS",
+                "ExpressJS",
+                "PostGres",
+                "MongoDB",
+                "Dev tools",
+                "Agility"
+            ]
         },
         {
             "id": 2,
-            "job": "job2",
-            "company": "company",
-            "place": "",
-            "dates": "",
-            "description": " ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but "
+            "job": "Development of an educative mobile Video Game",
+            "company": "La Boussole",
+            "place": "Paris",
+            "dates": "From March 2020 to July 2021",
+            "description": "Mobile Video Game about Privacy helping users handle their personal data.",
+            "link": "https://gitlab.com/la-boussole/gaoblaze/track",
+            "technos": [
+                "React Native",
+                "TypeScript",
+                "MobX",
+                "Sentry"
+            ]
+        },
+        {
+            "id": 3,
+            "job": "Development of a skype-like Web App",
+            "company": "Instant Visio",
+            "place": "Remote",
+            "dates": "From January 2021 to May 2021",
+            "description": "Video chat in a single click, and for free. Link",
+            "link": "https://instantvisio-dev.web.app/",
+            "technos": [
+                "ReactJS",
+                "Redux"
+            ]
+        },
+        {
+            "id": 4,
+            "job": "Experiences as a web development trainer",
+            "company": "Aniapps",
+            "place": "Paris",
+            "dates": "From April 2018 to July 2018",
+            "description": "White label ERP software for several clients, including the Mairie de Paris. The mission was to resolve customer tickets and implement new features.",
+            "link": "https://www.aniapps.fr/",
+            "technos": [
+                "Ruby on Rails",
+                "Postgres"
+            ]
         }
     ],
     "projects": [
@@ -32,23 +76,23 @@
     "education": [
         {
             "id": 1,
-            "cursus": "BSc in Applied Maths & Sociology",
-            "university": "University of Paris 7",
-            "dates": "Sept. 2011 - July 2012",
+            "cursus": "Training Developer Web",
+            "training": "Coding Bootcamp on Ruby on Rails & ReactJS",
+            "dates": "From October 2018 to December 2018 ",
+            "type": "bootcamp"
+        },
+        {
+            "id": 3,
+            "cursus": "MSc in Educational Sciences",
+            "university": "University Paris Descartes",
+            "dates": "January 2016",
             "type": "University"
         },
         {
             "id": 2,
             "cursus": "MSc in Stats & Sociology",
             "university": "ENS & ENSAE & EHESS",
-            "dates": "Sept. 2011 - July 2012",
-            "type": "University"
-        },
-        {
-            "id": 3,
-            "cursus": "MSc in Educational Sciences",
-            "university": "University of Paris 5",
-            "dates": "Sept. 2011 - July 2012",
+            "dates": "January 2012",
             "type": "University"
         }
     ],
@@ -132,6 +176,18 @@
         {
             "id": 3,
             "name": "NixOS"
+        },
+        {
+            "id": 4,
+            "name": "Agility"
+        },
+        {
+            "id": 5,
+            "name": "TDD"
+        },
+        {
+            "id": 6,
+            "name": "Jest"
         }
     ]
 }

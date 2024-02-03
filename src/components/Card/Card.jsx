@@ -30,11 +30,12 @@ const Card_education = (item) => {
                         <div className="ellipse-educ">🎓</div>
                     )
                     :
-                    null}
+                    <div className="ellipse-educ">🏀</div>}
             </div>
             <div className="info">
                 <div className="text-white cursus">{item.cursus}</div>
                 <div className="text-blue university">{item.university}</div>
+                <div className="text-blue university">{item.training}</div>
                 <div className="text-light dates">{item.dates}</div>
             </div>
         </div>
@@ -50,7 +51,7 @@ const Card_links = (item) => {
             <div className="ellipse-link" style={{ backgroundColor: colors[item.id % colors.length] }}>
                 <img className="icon" src={item.icon_path} />
             </div>
-            <div className="info">
+            <div className="content-link">
                 <a href={item.link} >
                     <div className="text-white link_name">{item.name}</div>
                 </a>
