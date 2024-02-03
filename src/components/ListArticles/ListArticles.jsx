@@ -34,7 +34,7 @@ const ListArticles = ({ data }) => {
                                         <a className="" href={item.link}>Link</a>
                                     </div>
                                 </div>
-                                <div className="main-text technos flex-text" style={{ color: "blueviolet" }}>
+                                <div className="main-text technos flex-text" style={{ color: "#DBA9EC" }}>
                                     {item.technos.map(techno => {
                                         return (
                                             <div>{techno}⋅ </div>

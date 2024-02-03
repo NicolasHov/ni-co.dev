@@ -22,12 +22,13 @@ const Card = ({ item, theme }) => {
 
 // theme Education
 const Card_education = (item) => {
+    let colors = ["DBA9EC", "#4B296B", "#EA6D2A", "#B8C14B", "#FFFBFF"]
     return (
         <div key={item.id} className="card educ">
             <div className="ellipse-space">
                 {item.type == 'University' ?
                     (
-                        <div className="ellipse-educ">🎓</div>
+                        <div className="ellipse-educ" style={{ backgroundColor: colors[item.id % colors.length] }}>🎓</div>
                     )
                     :
                     <div className="ellipse-educ">🏀</div>}
