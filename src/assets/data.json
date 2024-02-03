@@ -1,4 +1,34 @@
 {
+    "experiences": [
+        {
+            "id": 1,
+            "job": "job1",
+            "company": "ds",
+            "place": "",
+            "dates": "",
+            "description": " ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but "
+        },
+        {
+            "id": 2,
+            "job": "job2",
+            "company": "company",
+            "place": "",
+            "dates": "",
+            "description": " ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but "
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "name": "project1",
+            "description": " ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but "
+        },
+        {
+            "id": 2,
+            "name": "project2",
+            "description": " ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but "
+        }
+    ],
     "education": [
         {
             "id": 1,
@@ -16,7 +46,7 @@
         },
         {
             "id": 3,
-            "cursus": "MSc in Education Sciences",
+            "cursus": "MSc in Educational Sciences",
             "university": "University of Paris 5",
             "dates": "Sept. 2011 - July 2012",
             "type": "University"
@@ -31,8 +61,8 @@
         },
         {
             "id": 2,
-            "name": "Portfolio",
-            "link": "https://nicolashov.github.io",
+            "name": "Side-Projects",
+            "link": "https://nicolashov.github.io/",
             "icon_path": "../src/assets/images/bot.png"
         },
         {

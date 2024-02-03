@@ -1,0 +1,51 @@
+/* ///// TYPOGRAPHY ////  */
+
+/* h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+} */
+
+h1 {
+    color: white;
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: x-large;
+    /* margin-left: 8px; */
+}
+
+.title-2 {
+    color: white;
+    opacity: 0.5;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.main-text {
+    opacity: 0.75;
+    font-weight: 600;
+    font-size: 0.6em;
+}
+
+.text-white {
+    color: white;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.text-blue {
+    color: #A9C0EC;
+    font-size: 0.5em;
+    font-weight: bolder;
+}
+
+.text-light {
+    color: white;
+    opacity: 0.7;
+    font-size: 0.5em;
+    font-weight: bolder;
+}
+
+.separator {
+    /* border: rgba(255, 255, 255, 0.477) 0.5px solid */
+    border: #3E4040 1px solid;
+}

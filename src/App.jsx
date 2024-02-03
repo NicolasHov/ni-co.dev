@@ -1,5 +1,6 @@
 import reactLogo from './assets/images/react.svg'
 import './App.css'
+import "./Typography.css"
 import { ResumeReminder } from './components/ResumeReminder/ResumeReminder'
 
 const App = () => {

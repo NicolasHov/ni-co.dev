@@ -1,6 +1,7 @@
 import React from "react"
 import Card from "../Card/Card"
 import "./SidePanel.css"
+import circleLogo from '../../assets/images/circle-lined.svg'
 
 const SidePanel = ({ data }) => {
     return (
@@ -47,8 +48,10 @@ const SidePanel = ({ data }) => {
                     </div>
                     <div className="achievements"></div>
                 </div>
-                <div className="add-list"></div>
-                <div className="buttons"></div>
+                <div className="add-list">
+                    <img className="circleLogo filter-white" src={circleLogo} />
+                    <div className="title-2 addlist-text">Add List</div>
+                </div>
             </div>
         </>
     )

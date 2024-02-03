@@ -1,14 +1,14 @@
 /* ####### CARD ########## */
 
 .card {
-    /* height: 213px; */
-    margin-top: 4px;
     border-radius: 8px;
     background: rgba(204, 204, 204, 0.63);
     display: flex;
     flex-direction: row;
-    padding: 9px 0 9px 0;
-    margin-bottom: 4px;
+    padding: 5px 0 5px 0;
+    margin-bottom: 2px;
+    border: 1px transparent solid;
+    margin: 4px 0 2px 0;
     /* to avoid jump : */
     border: 1px transparent solid;
 }
@@ -31,9 +31,9 @@
     height: 25px;
     border-radius: 50px;
     background-color: aquamarine;
-    /* text-align: center; */
-    /* line-height: 1.4375em; */
-    text-align: right;
+    line-height: 25px;
+    /* watch out : tendency to move even with this property : */
+    text-align: center;
 }
 
 .ellipse-link {
@@ -41,40 +41,78 @@
     height: 25px;
     border-radius: 50px;
     text-align: center;
-    line-height: 29px;
+    line-height: 26px;
     text-align: right;
+    margin-left: 8px;
 }
 
-.info {
-    line-height: 0.8em;
+.card:hover .cursus {
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
+
+.educ:hover {
+    background: rgba(103, 102, 102, 0.715);
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+/* 
+.card:hover .university {
+    color: #5584dc;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+} */
 
 /* ####### LINKS ########## */
 
 .link_name {
-    font-size: 0.65em;
-    line-height: 19px;
-    position: relative;
     margin-left: 11px;
 }
 
-.link_name:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    display: block;
-    height: 1px;
-    background-color: white;
-    bottom: -1px;
-}
 
 .link {
-    background: transparent;
-    padding: 0 0 0 0;
+    padding: 4px 0 4px 0;
+    /* width: 60%; */
+
+    /* shiny glass effect from https: //codepen.io/crayon-code/pen/abmgooe*/
+    --size: 6rem;
+    --transition-duration: 500ms;
+    --transition-easing: ease-out;
+    /* color: var(--foreground-color); */
+    font-size: 2rem;
+    border: 0.5px solid rgba(250, 250, 250, 0.264);
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2px);
+    box-shadow: 0px calc(var(--size) / 6) calc(var(--size) / 3) rgba(0, 0, 0, 0.1);
+    transition: transform var(--transition-duration) var(--transition-easing);
+    overflow: hidden;
+}
+
+.link::before {
+    content: '';
+    background: rgba(255, 255, 255, 0.4);
+    width: 60%;
+    height: 100%;
+    top: 0%;
+    left: -125%;
+    transform: skew(45deg);
+    position: absolute;
+    transition: left var(--transition-duration) var(--transition-easing);
+}
+
+
+.link:hover::before {
+    left: 150%;
 }
 
 .link:hover {
-    border: 1px transparent solid;
+    border: 0.5px solid rgba(250, 250, 250, 0.264);
 }
 
 /* ####### SKILLS ########## */
@@ -88,4 +126,5 @@
 
 .skill:hover {
     border: 1px transparent solid;
+    cursor: default;
 }

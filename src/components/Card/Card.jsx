@@ -23,7 +23,7 @@ const Card = ({ item, theme }) => {
 // theme Education
 const Card_education = (item) => {
     return (
-        <div key={item.id} className="card">
+        <div key={item.id} className="card educ">
             <div className="ellipse-space">
                 {item.type == 'University' ?
                     (
@@ -43,14 +43,12 @@ const Card_education = (item) => {
 
 // theme links
 const Card_links = (item) => {
-    let colors = ["#BCD0F7", "#C7F3CF", "#F7F7BC", , "#d30c7b", "#7fffd4"]
+    let colors = ["#7fffd4", "#BCD0F7", "#F7F7BC", "#C7F3CF", "#7fffd4"]
     // let random_num = Math.floor(Math.random() * colors.length)
     return (
         <div key={item.id} className="card link">
-            <div className="ellipse-educ">
-                <div className="ellipse-link" style={{ backgroundColor: colors[item.id % colors.length] }}>
-                    <img className="icon" src={item.icon_path} />
-                </div>
+            <div className="ellipse-link" style={{ backgroundColor: colors[item.id % colors.length] }}>
+                <img className="icon" src={item.icon_path} />
             </div>
             <div className="info">
                 <a href={item.link} >

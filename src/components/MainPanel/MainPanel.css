@@ -1,5 +1,5 @@
 .main-panel {
-    width: 340px;
+    width: 332px;
     height: 752px;
     background-color: #282B2B;
     border-radius: 0 20px 20px 0;
@@ -10,3 +10,27 @@
 .side-panel {
     box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.2)
 }
+
+/* #### TITLE ##### */
+
+h1 {
+    margin: 38px 0px 3px 13px;
+}
+
+.subtitle {
+    margin: 0px 0px 3px 13px;
+    display: flex;
+}
+
+.second-text {
+    opacity: 0.3;
+    font-weight: 500;
+    font-size: 0.6em;
+}
+
+.work-projects {
+    padding: 0 8px 0 8px;
+}
+
+
+/* #### WORK ##### */

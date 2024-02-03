@@ -27,26 +27,6 @@ h1 {
   filter: drop-shadow(0 0 0.75rem rgb(242, 127, 27));
 }
 
-/* ///// TYPOGRAPHY ////  */
-
-.text-white {
-  color: white;
-  font-size: 0.6em;
-  font-weight: bold;
-}
-
-.text-blue {
-  color: #A9C0EC;
-  font-size: 0.5em;
-  font-weight: bolder;
-}
-
-.text-light {
-  color: white;
-  opacity: 0.7;
-  font-size: 0.5em;
-  font-weight: bolder;
-}
 
 /* ///// ANIMATION ////  */
 
