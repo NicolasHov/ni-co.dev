@@ -1,5 +1,6 @@
 import React from "react"
 import "./MainPanel.css"
+import ListArticles from "../ListArticles/ListArticles"
 
 const MainPanel = ({ data }) => {
     return (
@@ -34,15 +35,7 @@ const MainPanel = ({ data }) => {
                                 <h2 className="work">
                                     Work experience
                                 </h2>
-                                {data.experiences.map(item => {
-                                    return (
-                                        <>
-                                            <div>{item.job}</div>
-                                            <div>{item.company}</div>
-                                            <div>{item.description}</div>
-                                        </>
-                                    )
-                                })}
+                                <ListArticles data={data.experiences} theme={"experiences"} />
                             </div>
                             <div className="separator"></div>
 
@@ -50,14 +43,7 @@ const MainPanel = ({ data }) => {
                                 <h2 className="projects">
                                     Recent projects
                                 </h2>
-                                {data.projects.map(item => {
-                                    return (
-                                        <>
-                                            <div>{item.name}</div>
-                                            <div>{item.description}</div>
-                                        </>
-                                    )
-                                })}
+                                <ListArticles data={data.projects} theme={'projects'} />
                             </div>
                             <div className="separator"></div>
 
