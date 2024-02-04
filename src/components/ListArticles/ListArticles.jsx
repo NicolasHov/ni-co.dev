@@ -8,8 +8,8 @@ const ListArticles = ({ data }) => {
         <div className="article-content">
             {data.map(item => {
                 return (
-                    <>
-                        <div className="flex-text">
+                    <div key={item.id}>
+                        <div className="flex-text" >
                             <div className="flex-text content-job">
                                 <img className="circleLogo filter-black" src={circleLinedEmpty} alt="circle lined" />
 
@@ -48,7 +48,7 @@ const ListArticles = ({ data }) => {
                                     : null}
                             </div>
                         </div>
-                    </>
+                    </div>
                 )
             })}
         </div>
