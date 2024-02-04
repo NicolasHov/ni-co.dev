@@ -40,7 +40,7 @@
             "company": "Instant Visio",
             "place": "Remote",
             "dates": "From January 2021 to May 2021",
-            "description": "Video chat in a single click, and for free. Link",
+            "description": "Video chat in a single click, and for free.",
             "link": "https://instantvisio-dev.web.app/",
             "technos": [
                 "ReactJS",
