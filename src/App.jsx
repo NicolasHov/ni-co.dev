@@ -7,14 +7,14 @@ const App = () => {
   return (
     <>
       <ResumeReminder />
-      <header>
-        {/* <a href="https://react.dev" target="_blank">
+      {/* <header>
+        <a href="https://react.dev" target="_blank">
           <div className='logo'>
             <img src={reactLogo} className="logo react" alt="React logo" />
           </div>
 
-        </a> */}
-      </header>
+        </a>
+      </header> */}
       {/* <footer>
         <button onClick={() => console.log('contact')}>
           contact

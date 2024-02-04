@@ -23,9 +23,10 @@
   height: 19px;
 }
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-  /* filter: drop-shadow(0 0 2em #61dafbaa); */
+.circleLogoFilled {
+  position: relative;
+  display: block;
+  cursor: pointer;
 }
 
 /* #### FILTERS ####### */
@@ -39,7 +40,6 @@
 .filter-black {
   filter: invert(50%);
   opacity: 0.8;
-  align-self: center;
 }
 
 h1 {
@@ -60,7 +60,59 @@ h1 {
 }
 
 @media (prefers-reduced-motion: no-preference) {
+
   .logo {
-    animation: logo-spin infinite 20s linear;
+    animation: logo-spin infinite 1s linear;
+  }
+
+}
+
+.circleLogoFilled:hover:hover,
+.circleLogoFilled:active {
+  animation: bounce 0.6s ease;
+  -webkit-animation: bounce 0.6s ease;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+
+  25% {
+    top: -10px;
+  }
+
+  50% {
+    top: 5px;
+  }
+
+  75% {
+    top: -5px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    top: 0px;
+  }
+
+  25% {
+    top: -10px;
+  }
+
+  50% {
+    top: 5px;
+  }
+
+  75% {
+    top: -5px;
+  }
+
+  100% {
+    top: 0px;
   }
 }

@@ -39,7 +39,11 @@ const MainPanel = ({ data }) => {
                             </div>
                             <div className="separator"></div>
                             <div className="interstice">
-                                <img className="circleLogo filter-black" src={circleLogoFilled} />
+                                <img
+                                    className="circleLogo filter-black circleLogoFilled"
+                                    src={circleLogoFilled}
+                                    onClick={() => console.log("clic")}
+                                />
                             </div>
                             <div className="separator"></div>
                             <div className="content">
@@ -50,7 +54,7 @@ const MainPanel = ({ data }) => {
                             </div>
                             <div className="separator"></div>
                             <div className="interstice">
-                                <img className="circleLogo filter-black" src={circleLogoFilled} />
+                                <img className="circleLogo filter-black circleLogoFilled" src={circleLogoFilled} />
                             </div>
                             <div className="separator"></div>
                         </div>
