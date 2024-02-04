@@ -1,25 +1,11 @@
 .resume-reminder {
     display: flex;
     flex-direction: row-reverse;
-    width: 580px;
+    /* width: 580px; */
     height: 737px;
     padding: 10% 0 0px 30%;
     /* -webkit-backdrop-filter: blur(81.55px) brightness(100%); */
     /* backdrop-filter: blur(81.55px) brightness(100%); */
     /* background-color: var(--x03-blurbackground-03); */
     border-radius: 20px;
-}
-
-.background-panel {
-    /* -webkit-backdrop-filter: blur(81.55px) brightness(100%);
-    backdrop-filter: blur(81.55px) brightness(100%); */
-    /* background-color: var(--x03-blurbackground-03); */
-    /* box-shadow: var(--03-blur-background-03); */
-
-    /* border-radius: 20px;
-    height: 59px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 166px; */
 }

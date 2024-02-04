@@ -15,14 +15,6 @@ const App = () => {
 
         </a>
       </header> */}
-      {/* <footer>
-        <button onClick={() => console.log('contact')}>
-          contact
-        </button>
-        <p>
-          From <code>src/App.jsx</code> to your business
-        </p>
-      </footer> */}
     </>
   )
 }

@@ -2,10 +2,16 @@ import React from "react"
 import "./MainPanel.css"
 import ListArticles from "../ListArticles/ListArticles"
 import circleLogoFilled from '../../assets/images/circle-filled.svg'
+// import MessageDialog from "../Dialog/MessageDialog"
 
 const MainPanel = ({ data }) => {
+    const [open, setOpen] = React.useState(false);
+
+    const handleOpen = () => setOpen(!open);
+
     return (
         <>
+
             <div className="main-panel">
                 <div className="content-main-panel" >
                     <div className="title">
@@ -38,11 +44,12 @@ const MainPanel = ({ data }) => {
                                 <ListArticles data={data.experiences} theme={"experiences"} />
                             </div>
                             <div className="separator"></div>
+                            {/* <MessageDialog open={open} handleOpen={handleOpen} /> */}
                             <div className="interstice">
                                 <img
                                     className="circleLogo filter-black circleLogoFilled"
                                     src={circleLogoFilled}
-                                    onClick={() => console.log("clic")}
+                                    onClick={handleOpen}
                                 />
                             </div>
                             <div className="separator"></div>
