@@ -111,7 +111,7 @@
             "id": 1,
             "name": "LinkedIn",
             "link": "https://www.linkedin.com/in/nicolas-hovart-ba20b834/",
-            "icon_path": "../src/assets/images/diamond.png"
+            "icon_path": "../src/assets/images/diamond.svg"
         },
         {
             "id": 2,

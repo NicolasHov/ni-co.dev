@@ -46,11 +46,18 @@ const Card_education = (item) => {
 // theme links
 const Card_links = (item) => {
     let colors = ["#7fffd4", "#BCD0F7", "#F7F7BC", "#C7F3CF", "#7fffd4"]
+    // let icons_url = ["https://pngimg.com/uploads/linkedIn/linkedIn_PNG19.png", "https://pngimg.com/uploads/github/github_PNG32.png", "https://cdns.iconmonstr.com/wp-content/releases/preview/7.6.0/240/iconmonstr-dashboard-alt-filled.png", "https://cdns.iconmonstr.com/wp-content/releases/preview/2018/240/iconmonstr-discord-5.png"]
     // let random_num = Math.floor(Math.random() * colors.length)
     return (
         <div key={item.id} className="card link">
             <div className="ellipse-link" style={{ backgroundColor: colors[item.id % colors.length] }}>
-                <img className="icon" src={item.icon_path} />
+                {/* <img className="icon" src={icons_url[item.id % icons_url.length]} /> */}
+                {/* <img className="icon" src={item.icon_path} />  //TOFIX: won't work on build (maybe change for png images) -> see https://github.com/vitejs/vite/issues/1204 or https://vitejs.dev/guide/assets#importing-asset-as-url*/}
+                {/* then tried using css but fail :  */}
+                {/* <div className="icon" style={{
+                    backgroundImage: "url(" + item.icon_path + ")"
+                }}
+                ></div> */}
             </div>
             <div className="content-link">
                 <a href={item.link} >
