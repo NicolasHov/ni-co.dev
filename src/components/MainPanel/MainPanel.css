@@ -1,5 +1,6 @@
 .main-panel {
     width: 400px;
+    min-width: 330px;
     height: 752px;
     background-color: #282B2B;
     border-radius: 0 20px 20px 0;
