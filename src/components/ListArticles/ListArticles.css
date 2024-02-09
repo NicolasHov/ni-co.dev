@@ -14,6 +14,10 @@
     margin: 4px 0px 3px 35px;
 }
 
+.link-space {
+    margin-left: 8px;
+}
+
 .job {
     font-size: small;
     font-weight: bold;

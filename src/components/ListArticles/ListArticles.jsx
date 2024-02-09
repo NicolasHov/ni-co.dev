@@ -31,7 +31,10 @@ const ListArticles = ({ data }) => {
                                 <div className="main-text description flex-text">
                                     <div style={{ marginRight: "6px" }}>• </div>
                                     <div>{item.description}
-                                        <a style={{ color: "aqua", opacity: "0.4" }} href={item.link}>Link</a>
+                                        <a
+                                            className="text-white"
+                                            style={{ fontSize: "0.8em" }}
+                                            href={item.link}><span class="link-space">🔗</span>Link</a>
                                     </div>
                                 </div>
                                 <div className="main-text technos flex-text" style={{ color: "#DBA9EC" }}>

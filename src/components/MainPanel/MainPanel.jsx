@@ -17,11 +17,8 @@ const MainPanel = ({ data }) => {
                     <div className="title">
                         <h1>Hovart Nicolas</h1>
                         <div className="subtitle">
-                            <div className="main-text">
+                            <div className="main-text" style={{ flexBasis: "100%" }}>
                                 FullStack Developer
-                            </div>
-                            <div className="main-text">
-                                ⋅
                             </div>
                             <div className="second-text">
                                 hovart.nicolas@gmail.com
@@ -32,8 +29,13 @@ const MainPanel = ({ data }) => {
                             <div className="second-text">
                                 Brussels, Belgium
                             </div>
+                            <div className="main-text">
+                                ⋅
+                            </div>
+                            <div className="second-text">
+                                (+33) 0658066995
+                            </div>
                         </div>
-                        <div className="separator"></div>
                     </div>
                     <div className="work-projects">
                         <div className="frame">
@@ -63,7 +65,6 @@ const MainPanel = ({ data }) => {
                             <div className="interstice">
                                 <img className="circleLogo filter-black circleLogoFilled" src={circleLogoFilled} />
                             </div>
-                            <div className="separator"></div>
                         </div>
                     </div>
                 </div>

@@ -1,8 +1,7 @@
 .resume-reminder {
     display: flex;
     flex-direction: row-reverse;
-    /* width: 580px; */
-    height: 737px;
+    height: 660px;
     padding: 10% 0 0px 30%;
     /* -webkit-backdrop-filter: blur(81.55px) brightness(100%); */
     /* backdrop-filter: blur(81.55px) brightness(100%); */

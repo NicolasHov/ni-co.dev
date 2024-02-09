@@ -70,8 +70,7 @@
                 "ExpressJS"
             ],
             "link": "https://nicolashov.github.io/memory_react_fruits/",
-            "description": "A cool memory game and the API to store the highscores (not online yet).",
-            "other_link": "https://github.com/NicolasHov/memory_fruits_server"
+            "description": "A cool memory game and the API to store the highscores (not online yet)."
         },
         {
             "id": "6623178d-0d1f-4f74-8c95-3afaa8e27405",
@@ -81,6 +80,25 @@
             ],
             "link": "https://github.com/NicolasHov/mouchetasse/tree/master",
             "description": "Mouchetasse is a 🪰☕️ Minimalist Static site generator for TypeScript :{ "
+        },
+        {
+            "id": "e982d436-6b9d-4a39-b0c9-d11eb05f6f12",
+            "name": "🦀 Tech talk : Why use WebAssembly with Rust",
+            "description": "Slides presented for the first iteration of the monthly Rust meetup",
+            "technos": [
+                "WebAssembly",
+                "Rust"
+            ],
+            "link": "https://nicolashov.github.io/wasm-with-rust-slides/"
+        },
+        {
+            "id": "440ede70-e59f-460b-8bc4-a5b6eed280db",
+            "name": "📝 A rust static site generator",
+            "technos": [
+                "Rust"
+            ],
+            "link": "https://github.com/NicolasHov/bloggy-golbba",
+            "description": "Bloggy Golbba is a minimalist static site generator in Rust :{ "
         }
     ],
     "education": [

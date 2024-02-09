@@ -1,16 +1,25 @@
 .main-panel {
-    width: 400px;
+    overflow: scroll;
+    width: 545px;
     min-width: 330px;
-    height: 752px;
-    background-color: #282B2B;
+    /* height: 690px; */
+    background-color: rgba(40, 43, 43, 0.675);
+    /* opacity: 0.8; */
     border-radius: 0 20px 20px 0;
-    margin-left: -1px;
-    /* box-shadow: 0px 5px 5px grey; */
+    margin-left: -0.5px;
+    box-shadow: 0px 5px 5px grey;
 }
 
 .main-panel,
 .side-panel {
     box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.2)
+}
+
+.frame {
+    background-color: rgba(41, 43, 43, 0.451);
+    /* opacity: 0.7; */
+    border-radius: 12px 12px 0px 0px;
+    padding: 3px 8px 0px 8px;
 }
 
 /* #### TITLE ##### */
@@ -19,9 +28,15 @@ h1 {
     margin: 38px 0px 3px 13px;
 }
 
+.title {
+    padding: 0px 0px 0px 18px;
+}
+
 .subtitle {
+    font-size: 19px;
     margin: 0px 0px 3px 13px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .second-text {
@@ -31,18 +46,20 @@ h1 {
 }
 
 .work-projects {
-    padding: 0 8px 0 8px;
+    padding: 10px 22px 0 22px;
 }
 
 
 /* #### WORK ##### */
 
 .work {
-    color: #FF4365;
+    /* color: #FF4365; */
+    color: "#DBA9EC";
 }
 
 .projects {
-    color: #F7F7BC;
+    /* color: #F7F7BC; */
+    color: "#DBA9EC";
 }
 
 /* #C03221 red */
