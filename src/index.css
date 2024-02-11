@@ -10,7 +10,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
 
-  background: url(assets/images/macos-ventura-retina-6016x6016-8133.jpg) no-repeat center center fixed;
+  /* background: url(assets/images/macos-ventura-retina-6016x6016-8133.jpg) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

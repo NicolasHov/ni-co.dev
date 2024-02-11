@@ -1,6 +1,7 @@
-.article-content {
-
-    /* margin: 0px 0px 3px 13px; */
+@media (width > 760px) {
+    .article-space {
+        margin: 4px 0px 3px 35px;
+    }
 }
 
 .content-job {
@@ -8,10 +9,6 @@
     justify-content: flex-start;
     flex-direction: column;
     /* justify-content: space-around; */
-}
-
-.article-space {
-    margin: 4px 0px 3px 35px;
 }
 
 .link-space {

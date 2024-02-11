@@ -1,10 +1,62 @@
 .resume-reminder {
     display: flex;
-    flex-direction: row-reverse;
-    height: 660px;
-    padding: 10% 0 0px 30%;
     /* -webkit-backdrop-filter: blur(81.55px) brightness(100%); */
     /* backdrop-filter: blur(81.55px) brightness(100%); */
     /* background-color: var(--x03-blurbackground-03); */
-    border-radius: 20px;
+
+}
+
+@media (width <=760px) {
+    :root {
+        margin-top: 10px;
+    }
+
+    .resume-reminder {
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* height: 660px; */
+    }
+
+    .main-panel {
+        border-radius: 20px 20px 0px 0;
+        width: 460px;
+    }
+
+    .work-projects {
+        padding: 10px 10px 0 10px;
+    }
+
+    .article-space {
+        margin: 4px 0px 3px 6px;
+    }
+
+    .buttons {
+        visibility: hidden;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .side-panel {
+        width: 443px;
+        border-radius: 20px 20px 20px 20px;
+        margin-top: 10px;
+        padding: 10px 22px 0 22px;
+    }
+
+    .educ:active {
+        background: rgba(211, 209, 209, 0.715);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+}
+
+@media (width > 760px) {
+    .resume-reminder {
+        flex-direction: row-reverse;
+        height: 660px;
+        padding: 5% 0px 0px 5%;
+        border-radius: 20px;
+    }
 }

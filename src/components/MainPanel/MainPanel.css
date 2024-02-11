@@ -1,11 +1,19 @@
+@media (width > 760px) {
+    .main-panel {
+        border-radius: 0 20px 20px 0;
+        width: 545px;
+    }
+
+    .work-projects {
+        padding: 10px 22px 0 22px;
+    }
+}
+
 .main-panel {
     overflow: scroll;
-    width: 545px;
     min-width: 330px;
     /* height: 690px; */
     background-color: rgba(40, 43, 43, 0.675);
-    /* opacity: 0.8; */
-    border-radius: 0 20px 20px 0;
     margin-left: -0.5px;
     box-shadow: 0px 5px 5px grey;
 }
@@ -44,11 +52,6 @@ h1 {
     font-weight: 500;
     font-size: 0.6em;
 }
-
-.work-projects {
-    padding: 10px 22px 0 22px;
-}
-
 
 /* #### WORK ##### */
 
