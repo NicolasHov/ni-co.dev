@@ -1,12 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import "./MainPanel.css"
 import ListArticles from "../ListArticles/ListArticles"
 import circleLogoFilled from '../../assets/images/circle-filled.svg'
-// import MessageDialog from "../Dialog/MessageDialog"
 
 const MainPanel = ({ data }) => {
-    const [open, setOpen] = React.useState(false);
-
+    const [open, setOpen] = useState(false);
+    const [search, setSearch] = useState("")
     const handleOpen = () => setOpen(!open);
 
     return (

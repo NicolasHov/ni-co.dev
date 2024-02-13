@@ -34,13 +34,13 @@ const ListArticles = ({ data }) => {
                                         <a
                                             className="text-white"
                                             style={{ fontSize: "0.8em" }}
-                                            href={item.link}><span class="link-space">🔗</span>Link</a>
+                                            href={item.link}><span className="link-space">🔗</span>Link</a>
                                     </div>
                                 </div>
                                 <div className="main-text technos flex-text" style={{ color: "#DBA9EC" }}>
-                                    {item.technos.map(techno => {
+                                    {item.technos.map((techno, index) => {
                                         return (
-                                            <div>{techno}⋅ </div>
+                                            <div key={index}>{techno}⋅ </div>
                                         )
                                     })}
                                 </div>

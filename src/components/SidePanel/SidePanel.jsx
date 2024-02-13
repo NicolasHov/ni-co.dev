@@ -18,7 +18,7 @@ const SidePanel = ({ data }) => {
                         <div className="title-2">Education</div>
                         {data.education.map(item => {
                             return (
-                                <Card theme={"education"} item={item} />
+                                <Card theme={"education"} item={item} key={item.id} />
                             )
                         })}
                     </div>
