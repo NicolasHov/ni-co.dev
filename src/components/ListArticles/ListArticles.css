@@ -1,11 +1,29 @@
 @media (width > 760px) {
+
+    .article {
+        border-bottom: 1px #4b5359 solid;
+    }
+
     .article-space {
-        margin: 4px 0px 3px 35px;
+        margin: 20px 0px 20px 35px;
+    }
+
+    .content-job {
+        margin: 20px 0px 3px 0px;
+    }
+}
+
+@media (width <=759px) {
+    .content-job {
+        margin: 5px 0px 3px 0px;
+    }
+
+    .article-space {
+        margin: 4px 0px 20px 6px;
     }
 }
 
 .content-job {
-    margin: 5px 0px 3px 0px;
     justify-content: flex-start;
     flex-direction: column;
     /* justify-content: space-around; */

@@ -2,14 +2,13 @@ import React from "react"
 import './ListArticles.css'
 import circleLinedEmpty from '../../assets/images/circle-lined-empty.svg'
 
-
 const ListArticles = ({ data }) => {
     return (
         <div className="article-content">
             {data.map(item => {
                 return (
                     <div key={item.id}>
-                        <div className="flex-text" >
+                        <div className="flex-text article" >
                             <div className="flex-text content-job">
                                 <img className="circleLogo filter-black" src={circleLinedEmpty} alt="circle lined" />
 
@@ -40,7 +39,7 @@ const ListArticles = ({ data }) => {
                                 <div className="main-text technos flex-text" style={{ color: "#DBA9EC" }}>
                                     {item.technos.map((techno, index) => {
                                         return (
-                                            <div key={index}>{techno}⋅ </div>
+                                            <div key={index}>{techno.charAt(0).toUpperCase() + techno.slice(1)}⋅ </div>
                                         )
                                     })}
                                 </div>

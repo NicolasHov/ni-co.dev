@@ -73,7 +73,7 @@ const Card_skills = (item) => {
     return (
         <div key={item.id} className="card skill">
             <div className="info">
-                <div className="text-white">{item.name}</div>
+                <div className="text-white">{item.name.charAt(0).toUpperCase() + item.name.slice(1)}</div>
             </div>
         </div>
     )

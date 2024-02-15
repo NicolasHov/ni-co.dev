@@ -3,7 +3,7 @@ import "./MainPanel.css"
 import ListArticles from "../ListArticles/ListArticles"
 import circleLogoFilled from '../../assets/images/circle-filled.svg'
 
-const MainPanel = ({ data }) => {
+const MainPanel = ({ experiences, projects }) => {
     const [open, setOpen] = useState(false);
     const [search, setSearch] = useState("")
     const handleOpen = () => setOpen(!open);
@@ -42,7 +42,7 @@ const MainPanel = ({ data }) => {
                                 <h2 className="work">
                                     Work experience
                                 </h2>
-                                <ListArticles data={data.experiences} theme={"experiences"} />
+                                <ListArticles data={experiences} theme={"experiences"} />
                             </div>
                             <div className="separator"></div>
                             {/* <MessageDialog open={open} handleOpen={handleOpen} /> */}
@@ -58,7 +58,7 @@ const MainPanel = ({ data }) => {
                                 <h2 className="projects">
                                     Recent projects
                                 </h2>
-                                <ListArticles data={data.projects} theme={'projects'} />
+                                <ListArticles data={projects} theme={'projects'} />
                             </div>
                             <div className="separator"></div>
                             <div className="interstice">

@@ -1,16 +1,42 @@
 @media (width > 760px) {
     .main-panel {
         border-radius: 0 20px 20px 0;
-        width: 545px;
+        /* width: 545px; */
+        width: 70%;
+        max-width: 600px;
+        /* overflow: scroll; */
+    }
+
+    .frame {
+        overflow-y: auto;
+        height: 100%;
+
+        &::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background-color: #eceef2;
+            border-radius: 180px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #9b9b9b;
+            border-radius: 180px;
+        }
     }
 
     .work-projects {
         padding: 10px 22px 0 22px;
+        height: 575px;
+    }
+
+    .title {
+        padding: 0px 0px 0px 18px;
     }
 }
 
 .main-panel {
-    overflow: scroll;
     min-width: 330px;
     /* height: 690px; */
     background-color: rgba(40, 43, 43, 0.675);
@@ -34,10 +60,6 @@
 
 h1 {
     margin: 38px 0px 3px 13px;
-}
-
-.title {
-    padding: 0px 0px 0px 18px;
 }
 
 .subtitle {

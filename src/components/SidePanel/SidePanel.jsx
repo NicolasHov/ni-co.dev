@@ -1,9 +1,10 @@
-import React from "react"
+import React, { useState } from "react"
 import Card from "../Card/Card"
 import "./SidePanel.css"
 import circleLogo from '../../assets/images/circle-lined.svg'
 
-const SidePanel = ({ data }) => {
+const SidePanel = ({ data, handleChange, input }) => {
+
     return (
         <>
             <div className="side-panel">
@@ -12,7 +13,7 @@ const SidePanel = ({ data }) => {
                     <div className="ellipse ellipse2"><div className="hover_class">-</div></div>
                     <div className="ellipse ellipse3"><div className="hover_class">+</div></div>
                 </div>
-                <input className="search-bar" placeholder="🔍  Hovart Nicolas" />
+                <input className="search-bar" placeholder="🔍  reactJS, nextJS,..." value={input} onChange={handleChange} />
                 <div className="subsection">
                     <div className="education">
                         <div className="title-2">Education</div>

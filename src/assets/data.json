@@ -9,14 +9,14 @@
             "description": "Creation and management of a 7-months training in Full-Stack web development for a public in professional retraining.",
             "link": "https://gitlab.com/la-boussole/gaoblaze/track",
             "technos": [
-                "ReactJS",
-                "TypeScript",
-                "NodeJS",
-                "ExpressJS",
-                "PostGres",
-                "MongoDB",
-                "Dev tools",
-                "Agility"
+                "reactJS",
+                "typeScript",
+                "nodeJS",
+                "expressJS",
+                "postGres",
+                "mongoDB",
+                "dev tools",
+                "agility"
             ]
         },
         {
@@ -28,10 +28,10 @@
             "description": "Mobile Video Game about Privacy helping users handle their personal data.",
             "link": "https://gitlab.com/la-boussole/gaoblaze/track",
             "technos": [
-                "React Native",
-                "TypeScript",
+                "react native",
+                "typeScript",
                 "MobX",
-                "Sentry"
+                "sentry"
             ]
         },
         {
@@ -43,8 +43,8 @@
             "description": "Video chat in a single click, and for free.",
             "link": "https://instantvisio-dev.web.app/",
             "technos": [
-                "ReactJS",
-                "Redux"
+                "reactJS",
+                "redux"
             ]
         },
         {
@@ -56,8 +56,8 @@
             "description": "White label ERP software for several clients, including the Mairie de Paris. The mission was to resolve customer tickets and implement new features.",
             "link": "https://www.aniapps.fr/",
             "technos": [
-                "Ruby on Rails",
-                "Postgres"
+                "ruby on rails",
+                "postGres"
             ]
         }
     ],
@@ -66,8 +66,8 @@
             "id": "de7e7b3d-9b51-405f-a8a8-84dfe63ce073",
             "name": "🧠 A memory game in ReactJS",
             "technos": [
-                "ReactjS",
-                "ExpressJS"
+                "reactJS",
+                "expressJS"
             ],
             "link": "https://nicolashov.github.io/memory_react_fruits/",
             "description": "A cool memory game and the API to store the highscores (not online yet)."
@@ -76,7 +76,7 @@
             "id": "6623178d-0d1f-4f74-8c95-3afaa8e27405",
             "name": "🔨 NPM package : A minimalist templating tool for TypeScript",
             "technos": [
-                "TypeScript"
+                "typeScript"
             ],
             "link": "https://github.com/NicolasHov/mouchetasse/tree/master",
             "description": "Mouchetasse is a 🪰☕️ Minimalist Static site generator for TypeScript :{ "
@@ -86,8 +86,8 @@
             "name": "🦀 Tech talk : Why use WebAssembly with Rust",
             "description": "Slides presented for the first iteration of the monthly Rust meetup",
             "technos": [
-                "WebAssembly",
-                "Rust"
+                "webAssembly",
+                "rust"
             ],
             "link": "https://nicolashov.github.io/wasm-with-rust-slides/"
         },
@@ -95,7 +95,7 @@
             "id": "440ede70-e59f-460b-8bc4-a5b6eed280db",
             "name": "📝 A rust static site generator",
             "technos": [
-                "Rust"
+                "rust"
             ],
             "link": "https://github.com/NicolasHov/bloggy-golbba",
             "description": "Bloggy Golbba is a minimalist static site generator in Rust"
@@ -153,31 +153,31 @@
     "skills": [
         {
             "id": 1,
-            "name": "JavaScript"
+            "name": "javaScript"
         },
         {
             "id": 2,
-            "name": "TypeScript"
+            "name": "typeScript"
         },
         {
             "id": 3,
-            "name": "ReactJS"
+            "name": "reactJS"
         },
         {
             "id": 4,
-            "name": "VueJS"
+            "name": "vueJS"
         },
         {
             "id": 5,
-            "name": "NodejS"
+            "name": "nodeJS"
         },
         {
             "id": 6,
-            "name": "NextJS"
+            "name": "nextJS"
         },
         {
             "id": 7,
-            "name": "Python"
+            "name": "python"
         },
         {
             "id": 8,
@@ -185,21 +185,21 @@
         },
         {
             "id": 9,
-            "name": "MongoDB"
+            "name": "mongoDB"
         }
     ],
     "tools": [
         {
             "id": 1,
-            "name": "Git"
+            "name": "git"
         },
         {
             "id": 2,
-            "name": "Shell"
+            "name": "shell"
         },
         {
             "id": 4,
-            "name": "Agility"
+            "name": "agility"
         },
         {
             "id": 5,
@@ -207,21 +207,25 @@
         },
         {
             "id": 6,
-            "name": "Jest"
+            "name": "jest"
+        },
+        {
+            "id": 7,
+            "name": "react-testing"
         }
     ],
     "interests": [
         {
             "id": 1,
-            "name": "NixOS (Linux)"
+            "name": "nixOS (Linux)"
         },
         {
             "id": 2,
-            "name": "Rust"
+            "name": "rust"
         },
         {
             "id": 3,
-            "name": "WebAssembly"
+            "name": "webAssembly"
         }
     ]
 }

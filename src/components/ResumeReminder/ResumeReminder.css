@@ -6,7 +6,7 @@
 
 }
 
-@media (width <=760px) {
+@media (width <=759px) {
     :root {
         margin-top: 10px;
     }
@@ -24,10 +24,6 @@
 
     .work-projects {
         padding: 10px 10px 0 10px;
-    }
-
-    .article-space {
-        margin: 4px 0px 3px 6px;
     }
 
     .buttons {
@@ -55,8 +51,8 @@
 @media (width > 760px) {
     .resume-reminder {
         flex-direction: row-reverse;
-        height: 660px;
-        padding: 5% 0px 0px 5%;
+        height: 700px;
+        padding: 4em 11em 0px 0em;
         border-radius: 20px;
     }
 }
