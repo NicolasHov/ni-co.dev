@@ -50,7 +50,7 @@ const Card_links = (item) => {
     // let random_num = Math.floor(Math.random() * colors.length)
     return (
         <div key={item.id} className="card link">
-            <div className="ellipse-link" style={{ backgroundColor: colors[item.id % colors.length] }}>
+            <div className="ellipse-link" style={{ backgroundColor: colors[item.id[0] % colors.length] }}>
                 {/* <img className="icon" src={icons_url[item.id % icons_url.length]} /> */}
                 {/* <img className="icon" src={item.icon_path} />  //TOFIX: won't work on build (maybe change for png images) -> see https://github.com/vitejs/vite/issues/1204 or https://vitejs.dev/guide/assets#importing-asset-as-url*/}
                 {/* then tried using css but fail :  */}
