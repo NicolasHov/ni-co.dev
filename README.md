@@ -2,15 +2,21 @@
 
 # Roadmap
 
-- add achievements (algo tests)
+- [X] add light mode
 
-- add light mode
+- [X] add more readable mode
 
-- add modal with terminal
+- [ ] add sass 
 
-- connect to a DB
+- [ ] add achievements (algo tests)
 
-- connect to storybook
+- [ ] update light mode
+
+- [ ] add modal with terminal
+
+- [ ] connect to a DB
+
+- [ ] connect to storybook
 
 - ...
 
