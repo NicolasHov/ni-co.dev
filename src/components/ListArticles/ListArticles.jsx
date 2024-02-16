@@ -1,8 +1,12 @@
-import React from "react"
+import React, { useContext } from "react"
 import './ListArticles.css'
 import circleLinedEmpty from '../../assets/images/circle-lined-empty.svg'
+import { ThemeContext } from '../../contexts.js';
 
 const ListArticles = ({ data }) => {
+    const theme = useContext(ThemeContext);
+    const classTheme = 'technos-' + theme
+
     return (
         <div className="article-content">
             {data.map(item => {
@@ -36,10 +40,10 @@ const ListArticles = ({ data }) => {
                                             href={item.link}><span className="link-space">🔗</span>Link</a>
                                     </div>
                                 </div>
-                                <div className="main-text technos flex-text" style={{ color: "#DBA9EC" }}>
+                                <div className={`main-text technos flex-text ${classTheme}`}>
                                     {item.technos.map((techno, index) => {
                                         return (
-                                            <div key={index}>{techno.charAt(0).toUpperCase() + techno.slice(1)}⋅ </div>
+                                            <div key={index} > {techno.charAt(0).toUpperCase() + techno.slice(1)}⋅ </div>
                                         )
                                     })}
                                 </div>
@@ -53,7 +57,7 @@ const ListArticles = ({ data }) => {
                     </div>
                 )
             })}
-        </div>
+        </div >
     )
 }
 

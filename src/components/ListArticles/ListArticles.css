@@ -53,3 +53,16 @@
     flex-wrap: wrap;
     margin-left: 10px;
 }
+
+.technos-dark {
+    color: #DBA9EC;
+}
+
+.technos-light {
+    --color-1: hsl(1deg, 96%, 55%);
+    --color-2: hsl(25deg, 100%, 50%);
+    --color-3: hsl(40deg, 100%, 50%);
+    background: linear-gradient(170deg, var(--color-1), var(--color-2), var(--color-3));
+    border-radius: 5px;
+    width: 292px;
+}
