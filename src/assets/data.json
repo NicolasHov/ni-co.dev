@@ -164,7 +164,7 @@
             "link": "https://nicolashov.github.io/wasm-with-rust-slides/"
         },
         {
-            "id": "de7e7b3d-9b51-405f-a8a8-84dfe63ce073",
+            "id": "a2719176-5707-415e-8456-7a648dbec696",
             "name": "💻 This portfolio",
             "technos": [
                 "reactJS"
@@ -217,25 +217,25 @@
     ],
     "links": [
         {
-            "id": 1,
+            "id": "1a2719176-5707-415e-8456-7a648dbec696",
             "name": "LinkedIn",
             "link": "https://www.linkedin.com/in/nicolas-hovart-ba20b834/",
             "icon_path": "../src/assets/images/diamond.svg"
         },
         {
-            "id": 2,
+            "id": "2a2719176-5707-415e-8456-7a648dbec696",
             "name": "Side-Projects",
             "link": "https://nicolashov.github.io/",
             "icon_path": "../src/assets/images/bot.png"
         },
         {
-            "id": 3,
+            "id": "3a2719176-5707-415e-8456-7a648dbec696",
             "name": "GitHub",
             "link": "https://github.com/NicolasHov",
             "icon_path": "../src/assets/images/github.png"
         },
         {
-            "id": 4,
+            "id": "4a2719176-5707-415e-8456-7a648dbec696",
             "name": "Mastodon",
             "link": "https://hachyderm.io/@Nicolas_ho",
             "icon_path": "../src/assets/images/diamond2.png"
@@ -243,79 +243,79 @@
     ],
     "skills": [
         {
-            "id": 1,
+            "id": "1a2719176-5707-415e-8456-7a648dbec696",
             "name": "javaScript"
         },
         {
-            "id": 2,
+            "id": "2a2719176-5707-415e-8456-7a648dbec696",
             "name": "typeScript"
         },
         {
-            "id": 3,
+            "id": "3a2719176-5707-415e-8456-7a648dbec696",
             "name": "reactJS"
         },
         {
-            "id": 4,
+            "id": "4a2719176-5707-415e-8456-7a648dbec696",
             "name": "vueJS"
         },
         {
-            "id": 5,
+            "id": "5a2719176-5707-415e-8456-7a648dbec696",
             "name": "nodeJS"
         },
         {
-            "id": 6,
+            "id": "6a2719176-5707-415e-8456-7a648dbec696",
             "name": "nextJS"
         },
         {
-            "id": 7,
+            "id": "7a2719176-5707-415e-8456-7a648dbec696",
             "name": "python"
         },
         {
-            "id": 8,
+            "id": "8a2719176-5707-415e-8456-7a648dbec696",
             "name": "SQL"
         },
         {
-            "id": 9,
+            "id": "9a2719176-5707-415e-8456-7a648dbec696",
             "name": "mongoDB"
         }
     ],
     "tools": [
         {
-            "id": 1,
+            "id": "1a2719176-5707-415e-8456-7a648dbec696ds0-3sdf",
             "name": "git"
         },
         {
-            "id": 2,
+            "id": "2a2719176-5707-415e-8456-7a648dbec696ds0-3sdf",
             "name": "shell"
         },
         {
-            "id": 4,
+            "id": "4a2719176-5707-415e-8456-7a648dbec696ds0-3sdf",
             "name": "agility"
         },
         {
-            "id": 5,
+            "id": "5a2719176-5707-415e-8456-7a648dbec696ds0-3sdf",
             "name": "TDD"
         },
         {
-            "id": 6,
+            "id": "6a2719176-5707-415e-8456-7a648dbec696ds0-3sdf",
             "name": "jest"
         },
         {
-            "id": 7,
+            "id": "7a2719176-5707-415e-8456-7a648dbec696ds0-3sdf",
             "name": "react-testing"
         }
     ],
     "interests": [
         {
-            "id": 1,
+            "id": "1a2719176-5707-415e-8456-7a648dbec696cde4-dsq",
             "name": "nixOS (Linux)"
         },
         {
-            "id": 2,
+            "id": "2a2719176-5707-415e-8456-7a648dbec696cde4-dsq",
             "name": "rust"
         },
         {
-            "id": 3,
+            "id": "3a2719176-5707-415e-8456-7a648dbec696cde4-dsq",
             "name": "webAssembly"
         }
     ]

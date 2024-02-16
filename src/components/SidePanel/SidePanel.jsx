@@ -27,7 +27,7 @@ const SidePanel = ({ data, handleChange, input }) => {
                         <div className="title-2">Links</div>
                         {data.links.map(item => {
                             return (
-                                <Card theme={"links"} item={item} />
+                                <Card theme={"links"} item={item} key={item.id} />
                             )
                         })}
                     </div>
@@ -35,7 +35,7 @@ const SidePanel = ({ data, handleChange, input }) => {
                         <div className="title-2 skill_title">Skills</div>
                         {data.skills.map(item => {
                             return (
-                                <Card theme={"skills"} item={item} />
+                                <Card theme={"skills"} item={item} key={item.id} />
                             )
                         })}
                     </div>
@@ -43,7 +43,7 @@ const SidePanel = ({ data, handleChange, input }) => {
                         <div className="title-2 skill_title">Tools</div>
                         {data.tools.map(item => {
                             return (
-                                <Card theme={"skills"} item={item} />
+                                <Card theme={"skills"} item={item} key={item.id} />
                             )
                         })}
                     </div>
@@ -51,7 +51,7 @@ const SidePanel = ({ data, handleChange, input }) => {
                         <div className="title-2 skill_title">Interests</div>
                         {data.interests.map(item => {
                             return (
-                                <Card theme={"skills"} item={item} />
+                                <Card theme={"skills"} item={item} key={item.id} />
                             )
                         })}
                     </div>
