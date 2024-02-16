@@ -8,6 +8,8 @@
 
 - add modal with terminal
 
+- connect to a DB
+
 - ...
 
 # React + Vite

@@ -14,7 +14,33 @@
                 "nodeJS",
                 "expressJS",
                 "postGres",
+                "postgres",
                 "mongoDB",
+                "dev tools",
+                "agility"
+            ],
+            "keywords": [
+                "reactJS",
+                "reactJs",
+                "react JS",
+                "react",
+                "reactjs",
+                "typeScript",
+                "typescript",
+                "node",
+                "nodejs",
+                "node js",
+                "expressJS",
+                "expressJs",
+                "express",
+                "expressjs",
+                "express js",
+                "postGres",
+                "postgres",
+                "mongoDB",
+                "mongo DB",
+                "mongodb",
+                "mongo",
                 "dev tools",
                 "agility"
             ]
@@ -30,7 +56,16 @@
             "technos": [
                 "react native",
                 "typeScript",
-                "MobX",
+                "mobX",
+                "sentry"
+            ],
+            "keywords": [
+                "react native",
+                "react",
+                "typeScript",
+                "typescript",
+                "mobX",
+                "mobx",
                 "sentry"
             ]
         },
@@ -45,6 +80,14 @@
             "technos": [
                 "reactJS",
                 "redux"
+            ],
+            "keywords": [
+                "reactJS",
+                "reactJs",
+                "react JS",
+                "react",
+                "reactjs",
+                "redux"
             ]
         },
         {
@@ -58,6 +101,13 @@
             "technos": [
                 "ruby on rails",
                 "postGres"
+            ],
+            "keywords": [
+                "ruby on rails",
+                "rails",
+                "ruby",
+                "postGres",
+                "postgres"
             ]
         }
     ],
@@ -69,6 +119,18 @@
                 "reactJS",
                 "expressJS"
             ],
+            "keywords": [
+                "reactJS",
+                "reactJs",
+                "react JS",
+                "react",
+                "reactjs",
+                "expressJS",
+                "expressJs",
+                "express",
+                "expressjs",
+                "express js"
+            ],
             "link": "https://nicolashov.github.io/memory_react_fruits/",
             "description": "A cool memory game and the API to store the highscores (not online yet)."
         },
@@ -77,6 +139,10 @@
             "name": "🔨 NPM package : A minimalist templating tool for TypeScript",
             "technos": [
                 "typeScript"
+            ],
+            "keywords": [
+                "typeScript",
+                "typescript"
             ],
             "link": "https://github.com/NicolasHov/mouchetasse/tree/master",
             "description": "Mouchetasse is a 🪰☕️ Minimalist Static site generator for TypeScript :{ "
@@ -89,12 +155,37 @@
                 "webAssembly",
                 "rust"
             ],
+            "keywords": [
+                "webAssembly",
+                "webassembly",
+                "web assembly",
+                "rust"
+            ],
             "link": "https://nicolashov.github.io/wasm-with-rust-slides/"
+        },
+        {
+            "id": "de7e7b3d-9b51-405f-a8a8-84dfe63ce073",
+            "name": "💻 This portfolio",
+            "technos": [
+                "reactJS"
+            ],
+            "keywords": [
+                "reactJS",
+                "reactJs",
+                "react JS",
+                "react",
+                "reactjs"
+            ],
+            "link": "https://github.com/NicolasHov/ni-co.dev",
+            "description": "A react app created with Vite, inspired by macOS design"
         },
         {
             "id": "440ede70-e59f-460b-8bc4-a5b6eed280db",
             "name": "📝 A rust static site generator",
             "technos": [
+                "rust"
+            ],
+            "keywords": [
                 "rust"
             ],
             "link": "https://github.com/NicolasHov/bloggy-golbba",

@@ -18,6 +18,12 @@ const getWindowDimensions = () => {
     };
 }
 
+const filterDataByInput = (dataType, input) => {
+    let newData = dataType.map(a => ({ ...a })); // deep copy
+    return newData.filter((xp) => xp.keywords.includes(input))
+
+}
+
 // #####
 
 export const ResumeReminder = () => {
@@ -28,13 +34,11 @@ export const ResumeReminder = () => {
 
     useEffect(() => {
         // experiences
-        let newData = data.experiences.map(a => ({ ...a })); // deep copy
-        let result = newData.filter((xp) => xp.technos.includes(input))
+        let result = filterDataByInput(data.experiences, input)
         result.length != 0 ? setFilteredDataExperience(result) : setFilteredDataExperience(data.experiences)
 
         // projects
-        let newDataProject = data.projects.map(a => ({ ...a })); // deep copy
-        let resultProject = newDataProject.filter((xp) => xp.technos.includes(input))
+        let resultProject = filterDataByInput(data.projects, input)
         resultProject.length != 0 ? setFilteredDataProject(resultProject) : setFilteredDataProject(data.projects)
     }, [input])
 

@@ -57,10 +57,10 @@ const SidePanel = ({ data, handleChange, input }) => {
                     </div>
                     <div className="achievements"></div>
                 </div>
-                <div className="add-list">
+                <a href="https://calendly.com/hovart-nicolas/" className="add-list">
                     <img className="circleLogo filter-white" src={circleLogo} />
-                    <div className="title-2 addlist-text">Add List</div>
-                </div>
+                    <div className="title-2 addlist-text">Book a call</div>
+                </a>
             </div>
         </>
     )
