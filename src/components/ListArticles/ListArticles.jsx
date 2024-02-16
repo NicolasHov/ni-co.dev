@@ -1,11 +1,13 @@
 import React, { useContext } from "react"
 import './ListArticles.css'
 import circleLinedEmpty from '../../assets/images/circle-lined-empty.svg'
-import { ThemeContext } from '../../contexts.js';
+import { ThemeContext, SizeContext } from '../../contexts.js';
 
 const ListArticles = ({ data }) => {
     const theme = useContext(ThemeContext);
     const classTheme = 'technos-' + theme
+    const size = useContext(SizeContext);
+    const classSize = 'main-text-' + size
 
     return (
         <div className="article-content">
@@ -31,7 +33,7 @@ const ListArticles = ({ data }) => {
                                     :
                                     null
                                 }
-                                <div className="main-text description flex-text">
+                                <div className={`main-text description flex-text ${classSize}`} >
                                     <div style={{ marginRight: "6px" }}>• </div>
                                     <div>{item.description}
                                         <a
@@ -40,7 +42,7 @@ const ListArticles = ({ data }) => {
                                             href={item.link}><span className="link-space">🔗</span>Link</a>
                                     </div>
                                 </div>
-                                <div className={`main-text technos flex-text ${classTheme}`}>
+                                <div className={`main-text technos flex-text ${classTheme}  ${classSize}`}>
                                     {item.technos.map((techno, index) => {
                                         return (
                                             <div key={index} > {techno.charAt(0).toUpperCase() + techno.slice(1)}⋅ </div>
@@ -48,7 +50,7 @@ const ListArticles = ({ data }) => {
                                     })}
                                 </div>
                                 {item.other_link ?
-                                    <div className="main-text">
+                                    <div className={`main-text ${classSize}`}>
                                         <a className="" href={item.other_link}>Link</a>
                                     </div>
                                     : null}

@@ -3,19 +3,30 @@ import reactLogo from './assets/images/react.svg'
 import './App.css'
 import "./Typography.css"
 import { ResumeReminder } from './components/ResumeReminder/ResumeReminder'
-import { ThemeContext } from './contexts.js';
+import { ThemeContext, SizeContext } from './contexts.js';
 
 const App = () => {
   const [theme, setTheme] = useState('dark');
+  const [size, setSize] = useState('normal');
   return (
     < ThemeContext.Provider value={theme}>
-      <ResumeReminder />
-      <div
-        onClick={() => setTheme(theme == 'light' ? 'dark' : 'light')}
-        style={{ cursor: "pointer" }}
-      >
-        ☀️
-      </div >
+      < SizeContext.Provider value={size}>
+        <ResumeReminder />
+        <div className="flex-text">
+          <div
+            onClick={() => setTheme(theme == 'light' ? 'dark' : 'light')}
+            style={{ cursor: "pointer", marginLeft: '10px' }}
+          >
+            ☀️
+          </div >
+          <div
+            onClick={() => setSize(size == 'big' ? 'normal' : 'big')}
+            style={{ cursor: "pointer", marginLeft: '10px' }}
+          >
+            🔎
+          </div >
+        </div>
+      </SizeContext.Provider>
     </ThemeContext.Provider>
   )
 }

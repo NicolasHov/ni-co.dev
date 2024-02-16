@@ -65,4 +65,5 @@
     background: linear-gradient(170deg, var(--color-1), var(--color-2), var(--color-3));
     border-radius: 5px;
     width: 292px;
+    /* font-size: 12px; */
 }

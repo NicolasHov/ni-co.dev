@@ -37,6 +37,14 @@ h6 {
     font-size: 0.6em;
 }
 
+.main-text-normal {
+    font-size: 0.6em;
+}
+
+.main-text-big {
+    font-size: 0.9em;
+}
+
 .text-white {
     color: white;
     font-weight: bold;

@@ -2,11 +2,13 @@ import React, { useState, useContext } from "react"
 import "./MainPanel.css"
 import ListArticles from "../ListArticles/ListArticles"
 import circleLogoFilled from '../../assets/images/circle-filled.svg'
-import { ThemeContext } from '../../contexts.js';
+import { ThemeContext, SizeContext } from '../../contexts.js';
 
 const MainPanel = ({ experiences, projects }) => {
     const theme = useContext(ThemeContext);
     const classTheme = 'panel-' + theme
+    const size = useContext(SizeContext);
+    const classSize = 'main-text-' + size
     const [open, setOpen] = useState(false);
     const [search, setSearch] = useState("")
     // const handleOpen = () => setOpen(!open);
@@ -19,19 +21,19 @@ const MainPanel = ({ experiences, projects }) => {
                     <div className="title">
                         <h1>Hovart Nicolas</h1>
                         <div className="subtitle">
-                            <div className="main-text" style={{ flexBasis: "100%" }}>
+                            <div className={`main-text ${classSize}`} style={{ flexBasis: "100%" }}>
                                 FullStack Developer
                             </div>
                             <div className="second-text">
                                 hovart.nicolas@gmail.com
                             </div>
-                            <div className="main-text">
+                            <div className={`main-text ${classSize}`}>
                                 ⋅
                             </div>
                             <div className="second-text">
                                 Brussels, Belgium
                             </div>
-                            <div className="main-text">
+                            <div className={`main-text ${classSize}`}>
                                 ⋅
                             </div>
                             <div className="second-text">
