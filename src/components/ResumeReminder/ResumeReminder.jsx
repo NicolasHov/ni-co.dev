@@ -7,24 +7,29 @@ import data from '../../assets/data.json'
 import SidePanel from '../SidePanel/SidePanel.jsx'
 import MainPanel from '../MainPanel/MainPanel.jsx'
 
-const getScreenWidth = () => {
-    return 641
+
+// ##### Tools
+
+const getWindowDimensions = () => {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+        width,
+        height
+    };
 }
 
+// #####
 
 export const ResumeReminder = () => {
-    const [screenWidth, setScreenWidth] = useState(getScreenWidth())
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions()); // todo: update state when window is resized
     const [filteredDataExperience, setFilteredDataExperience] = useState(data.experiences)
     const [filteredDataProject, setFilteredDataProject] = useState(data.projects)
     const [input, setInput] = useState("")
 
     useEffect(() => {
-        console.log(input);
-
         // experiences
         let newData = data.experiences.map(a => ({ ...a })); // deep copy
         let result = newData.filter((xp) => xp.technos.includes(input))
-        console.log(result);
         result.length != 0 ? setFilteredDataExperience(result) : setFilteredDataExperience(data.experiences)
 
         // projects
@@ -37,20 +42,20 @@ export const ResumeReminder = () => {
         setInput(event.target.value) // .toLowerCase()       
     }
 
-    return (
-        // TODO: 
-        // { screenWidth > 640 ?
-        <Draggable>
-            <section className="resume-reminder">
-                <MainPanel experiences={filteredDataExperience} projects={filteredDataProject} />
-                <SidePanel data={data} input={input} handleChange={handleChange} />
-            </section>
-        </Draggable>
-        //     :
-        // <section className="resume-reminder">
-        //     <MainPanel data={data} />
-        //     <SidePanel data={data} />
-        // </section>
-        // }
+    if (windowDimensions.width > 640)
+        return (
+            <Draggable>
+                <section className="resume-reminder">
+                    <MainPanel experiences={filteredDataExperience} projects={filteredDataProject} />
+                    <SidePanel data={data} input={input} handleChange={handleChange} />
+                </section>
+            </Draggable >
+        )
+    else return (
+        <section className="resume-reminder">
+            <MainPanel experiences={filteredDataExperience} projects={filteredDataProject} />
+            <SidePanel data={data} input={input} handleChange={handleChange} />
+        </section>
     )
+
 }
