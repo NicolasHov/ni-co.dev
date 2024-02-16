@@ -23,6 +23,8 @@
     }
 }
 
+/* end media query > 760px */
+
 .main-panel {
     min-width: 330px;
     /* height: 690px; */
@@ -36,8 +38,18 @@
     box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.2)
 }
 
-.frame {
+.panel-dark {
     background-color: rgba(41, 43, 43, 0.451);
+}
+
+.panel-light {
+    --color-1: hsl(1deg, 96%, 55%);
+    --color-2: hsl(25deg, 100%, 50%);
+    --color-3: hsl(40deg, 100%, 50%);
+    background: linear-gradient(170deg, var(--color-1), var(--color-2), var(--color-3));
+}
+
+.frame {
     /* opacity: 0.7; */
     border-radius: 12px 12px 0px 0px;
     padding: 3px 8px 0px 8px;

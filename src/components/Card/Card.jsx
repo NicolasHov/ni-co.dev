@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useContext } from "react"
 import './Card.css'
-
+import { ThemeContext } from '../../contexts.js';
 
 const Card = ({ item, theme }) => {
     switch (theme) {
@@ -70,8 +70,10 @@ const Card_links = (item) => {
 
 // theme skills
 const Card_skills = (item) => {
+    const theme = useContext(ThemeContext);
+    const classTheme = 'card-' + theme
     return (
-        <div key={item.id} className="card skill">
+        <div key={item.id} className={`card skill ${classTheme}`}>
             <div className="info">
                 <div className="text-white">{item.name.charAt(0).toUpperCase() + item.name.slice(1)}</div>
             </div>

@@ -7,7 +7,6 @@ import data from '../../assets/data.json'
 import SidePanel from '../SidePanel/SidePanel.jsx'
 import MainPanel from '../MainPanel/MainPanel.jsx'
 
-
 // ##### Tools
 
 const getWindowDimensions = () => {
@@ -61,5 +60,4 @@ export const ResumeReminder = () => {
             <SidePanel data={data} input={input} handleChange={handleChange} />
         </section>
     )
-
 }

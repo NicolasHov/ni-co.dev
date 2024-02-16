@@ -1,12 +1,15 @@
-import React, { useState } from "react"
+import React, { useState, useContext } from "react"
 import "./MainPanel.css"
 import ListArticles from "../ListArticles/ListArticles"
 import circleLogoFilled from '../../assets/images/circle-filled.svg'
+import { ThemeContext } from '../../contexts.js';
 
 const MainPanel = ({ experiences, projects }) => {
+    const theme = useContext(ThemeContext);
+    const classTheme = 'panel-' + theme
     const [open, setOpen] = useState(false);
     const [search, setSearch] = useState("")
-    const handleOpen = () => setOpen(!open);
+    // const handleOpen = () => setOpen(!open);
 
     return (
         <>
@@ -37,7 +40,8 @@ const MainPanel = ({ experiences, projects }) => {
                         </div>
                     </div>
                     <div className="work-projects">
-                        <div className="frame">
+                        <div className={`frame ${classTheme}`}
+                        >
                             <div className="content">
                                 <h2 className="work">
                                     Work experience
@@ -50,7 +54,7 @@ const MainPanel = ({ experiences, projects }) => {
                                 <img
                                     className="circleLogo filter-black circleLogoFilled"
                                     src={circleLogoFilled}
-                                    onClick={handleOpen}
+                                // onClick={handleOpen}
                                 />
                             </div>
                             <div className="separator"></div>
