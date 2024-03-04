@@ -115,6 +115,33 @@
     ],
     "projects": [
         {
+            "id": "4d3c4a9d-d39a-4bb4-abd4-f5289c9b253f",
+            "name": "Manifiesta festival website",
+            "technos": [
+                "reactJS",
+                "nextJS",
+                "typeScript",
+                "i18n"
+            ],
+            "keywords": [
+                "reactJS",
+                "reactJs",
+                "react JS",
+                "react",
+                "reactjs",
+                "nextJS",
+                "nextjs",
+                "next",
+                "next js",
+                "i18n",
+                "internationalization",
+                "typeScript",
+                "typescript"
+            ],
+            "link": "https://manifiesta.be/fr",
+            "description": "Redesign of the 2024 manifiesta festival website."
+        },
+        {
             "id": "de7e7b3d-9b51-405f-a8a8-84dfe63ce073",
             "name": "🧠 A memory game in ReactJS",
             "technos": [
