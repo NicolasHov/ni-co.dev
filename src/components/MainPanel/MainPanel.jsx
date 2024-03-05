@@ -48,7 +48,10 @@ const MainPanel = ({ experiences, projects }) => {
                                 <h2 className="work">
                                     Work experience
                                 </h2>
-                                <ListArticles data={experiences} theme={"experiences"} />
+                                {(!experiences.length) ?
+                                    <div>Loading...</div>
+                                    :
+                                    <ListArticles data={experiences} theme={"experiences"} />}
                             </div>
                             <div className="separator"></div>
                             {/* <MessageDialog open={open} handleOpen={handleOpen} /> */}
@@ -64,7 +67,11 @@ const MainPanel = ({ experiences, projects }) => {
                                 <h2 className="projects">
                                     Recent projects
                                 </h2>
-                                <ListArticles data={projects} theme={'projects'} />
+                                {(!projects.length) ?
+                                    <div>Loading...</div>
+                                    :
+                                    <ListArticles data={projects} theme={'projects'} />
+                                }
                             </div>
                             <div className="separator"></div>
                             <div className="interstice">
@@ -73,7 +80,7 @@ const MainPanel = ({ experiences, projects }) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     )
 }

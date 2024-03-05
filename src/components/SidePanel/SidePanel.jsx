@@ -1,10 +1,9 @@
-import React, { useState } from "react"
+import React from "react"
 import Card from "../Card/Card"
 import "./SidePanel.css"
 import circleLogo from '../../assets/images/circle-lined.svg'
 
-const SidePanel = ({ data, handleChange, input }) => {
-
+const SidePanel = ({ education, links, skills, tools, interests, handleChange, input }) => {
     return (
         <>
             <div className="side-panel">
@@ -13,11 +12,13 @@ const SidePanel = ({ data, handleChange, input }) => {
                     <div className="ellipse ellipse2"><div className="hover_class">-</div></div>
                     <div className="ellipse ellipse3"><div className="hover_class">+</div></div>
                 </div>
-                <input className="search-bar" placeholder="🔍  reactJS, nextJS,..." value={input} onChange={handleChange} />
+                <div className="flex-text">
+                    <input className="search-bar" placeholder="🔍  reactJS, nextJS,..." value={input} onChange={handleChange} />
+                </div>
                 <div className="subsection">
                     <div className="education">
                         <div className="title-2">Education</div>
-                        {data.education.map(item => {
+                        {education.map(item => {
                             return (
                                 <Card theme={"education"} item={item} key={item.id} />
                             )
@@ -25,7 +26,7 @@ const SidePanel = ({ data, handleChange, input }) => {
                     </div>
                     <div className="links">
                         <div className="title-2">Links</div>
-                        {data.links.map(item => {
+                        {links.map(item => {
                             return (
                                 <Card theme={"links"} item={item} key={item.id} />
                             )
@@ -33,7 +34,7 @@ const SidePanel = ({ data, handleChange, input }) => {
                     </div>
                     <div className="skills">
                         <div className="title-2 skill_title">Skills</div>
-                        {data.skills.map(item => {
+                        {skills.map(item => {
                             return (
                                 <Card theme={"skills"} item={item} key={item.id} />
                             )
@@ -41,7 +42,7 @@ const SidePanel = ({ data, handleChange, input }) => {
                     </div>
                     <div className="tools skills">
                         <div className="title-2 skill_title">Tools</div>
-                        {data.tools.map(item => {
+                        {tools.map(item => {
                             return (
                                 <Card theme={"skills"} item={item} key={item.id} />
                             )
@@ -49,7 +50,7 @@ const SidePanel = ({ data, handleChange, input }) => {
                     </div>
                     <div className="interests skills">
                         <div className="title-2 skill_title">Interests</div>
-                        {data.interests.map(item => {
+                        {interests.map(item => {
                             return (
                                 <Card theme={"skills"} item={item} key={item.id} />
                             )
@@ -61,7 +62,7 @@ const SidePanel = ({ data, handleChange, input }) => {
                     <img className="circleLogo filter-white" src={circleLogo} />
                     <div className="title-2 addlist-text">Book a call</div>
                 </a>
-            </div>
+            </div >
         </>
     )
 }

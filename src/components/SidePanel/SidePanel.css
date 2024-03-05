@@ -67,13 +67,17 @@
 /* ###  SEARCHBAR #### */
 
 .search-bar {
-    width: 213px;
+    width: 60%;
     height: 26px;
     margin-top: 12px;
     border-radius: 8px;
     background: rgba(204, 204, 204, 0.11);
     color: rgba(255, 255, 255, 0.486);
     border: 1px solid #ffffff1c;
+}
+
+.button-clear {
+    cursor: pointer;
 }
 
 /* ###  subsection #### */
