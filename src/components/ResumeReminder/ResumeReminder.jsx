@@ -2,7 +2,8 @@
 import React, { useEffect, useState } from "react";
 import "./ResumeReminder.css";
 import '../../assets/fonts/SF-Pro-Rounded-Regular.otf'
-import { getData } from "../../utils/getResume.js";
+// import { getData } from "../../utils/getResume.js";
+import data from '../../assets/data.json'
 import Draggable from 'react-draggable';
 import SidePanel from '../SidePanel/SidePanel.jsx'
 import MainPanel from '../MainPanel/MainPanel.jsx'
@@ -26,39 +27,52 @@ const filterDataByInput = (unfilteredData, input) => {
 
 export const ResumeReminder = () => {
     const [filter, setFilter] = useState("");
+    // code for fetch API when  i will find a workaround for var env in vite prod : 
     // many states for data but its advised since react 18
-    const [education, setEducation] = useState([])
-    const [links, setLink] = useState([])
-    const [skills, setSkill] = useState([])
-    const [tools, setTool] = useState([])
-    const [interests, setInterest] = useState([])
-    const [experiences, setExperience] = useState([])
-    const [projects, setProject] = useState([])
-    const [filteredExperiences, setFilteredExperience] = useState([])
-    const [filteredProjects, setFilteredProject] = useState([])
+    // const [education, setEducation] = useState([])
+    // const [links, setLink] = useState([])
+    // const [skills, setSkill] = useState([])
+    // const [tools, setTool] = useState([])
+    // const [interests, setInterest] = useState([])
+    // const [experiences, setExperience] = useState([])
+    // const [projects, setProject] = useState([])
+    // const [filteredExperiences, setFilteredExperience] = useState([])
+    // const [filteredProjects, setFilteredProject] = useState([])
+
+    //code using data.json
+    const [education, setEducation] = useState(data.education)
+    const [links, setLink] = useState(data.links)
+    const [skills, setSkill] = useState(data.skills)
+    const [tools, setTool] = useState(data.tools)
+    const [interests, setInterest] = useState(data.interests)
+    const [experiences, setExperience] = useState(data.experiences)
+    const [projects, setProject] = useState(data.projects)
+    const [filteredExperiences, setFilteredExperience] = useState(data.experiences)
+    const [filteredProjects, setFilteredProject] = useState(data.projects)
     // other states
     const [input, setInput] = useState("")
     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions()); // todo: update state when window is resized
 
-    useEffect(() => {
-        async function fetchData() {
-            try {
-                const res = await getData();
-                setExperience(res.record.experiences)
-                setProject(res.record.projects)
-                setFilteredExperience(res.record.experiences)
-                setFilteredProject(res.record.projects)
-                setEducation(res.record.education)
-                setLink(res.record.links)
-                setSkill(res.record.skills)
-                setTool(res.record.tools)
-                setInterest(res.record.interests)
-            } catch (error) {
-                console.log(error);
-            }
-        }
-        fetchData();
-    }, [])
+    // for fetch
+    // useEffect(() => {
+    //     async function fetchData() {
+    //         try {
+    //             const res = await getData();
+    //             setExperience(res.record.experiences)
+    //             setProject(res.record.projects)
+    //             setFilteredExperience(res.record.experiences)
+    //             setFilteredProject(res.record.projects)
+    //             setEducation(res.record.education)
+    //             setLink(res.record.links)
+    //             setSkill(res.record.skills)
+    //             setTool(res.record.tools)
+    //             setInterest(res.record.interests)
+    //         } catch (error) {
+    //             console.log(error);
+    //         }
+    //     }
+    //     fetchData();
+    // }, [])
 
     useEffect(() => {
         if (experiences?.length) {
