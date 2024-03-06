@@ -11,7 +11,7 @@ const getData = async () => {
     return fetch(url, {
         mode: 'cors',
         headers: {
-            "X-Master-Key": `\$2a\$10\$V0DKgZSln81C0W.OnOGVW.5SsovTliifAeuLh7kGOu8afp16OFsim`,
+            "X-Master-Key": `$2a$10$V0DKgZSln81C0W.OnOGVW.5SsovTliifAeuLh7kGOu8afp16OFsim`,
             'Accept': '*/*',
         },
     })
