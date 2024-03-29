@@ -1,3 +1,8 @@
+.article-space a::before {
+    content: '🔗';
+    margin-left: 5px;
+}
+
 @media (width > 760px) {
 
     .article {
@@ -66,4 +71,8 @@
     border-radius: 5px;
     width: 292px;
     /* font-size: 12px; */
+}
+
+.article-space>a::before {
+    content: '🔗';
 }

@@ -39,7 +39,10 @@ const ListArticles = ({ data }) => {
                                         <a
                                             className="text-white"
                                             style={{ fontSize: "0.8em" }}
-                                            href={item.link}><span className="link-space">🔗</span>Link</a>
+                                            href={item.link}
+                                        >
+                                            Link
+                                        </a>
                                     </div>
                                 </div>
                                 <div className={`main-text technos flex-text ${classTheme}  ${classSize}`}>

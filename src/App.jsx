@@ -21,7 +21,6 @@ const App = () => {
           <div className="switcher size-switcher"
             onClick={() => setSize(size == 'big' ? 'normal' : 'big')}
           >
-            {/* here two letter A but with two different sizes */}
             <span style={{ fontSize: "8px" }}>A</span>
             <span style={{ fontSize: "12px" }}>A</span>
           </div >
