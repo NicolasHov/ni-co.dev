@@ -1,10 +1,15 @@
+.mail-link {
+    color: rgba(255, 255, 255, 0.87);
+    text-decoration: none;
+    opacity: 0.5;
+    font-size: 0.6em;
+}
+
 @media (width > 760px) {
     .main-panel {
         border-radius: 0 20px 20px 0;
-        /* width: 545px; */
         width: 70%;
         max-width: 600px;
-        /* overflow: scroll; */
     }
 
     .frame {

@@ -24,16 +24,14 @@ const MainPanel = ({ experiences, projects }) => {
                             <div className={`main-text ${classSize}`} style={{ flexBasis: "100%" }}>
                                 FullStack Developer
                             </div>
-                            <div className="second-text">
-                                hovart.nicolas@gmail.com
-                            </div>
-                            <div className={`main-text ${classSize}`}>
+                            <a className="mail-link" href="mailto:hovart.nicolas@gmail.com">hovart.nicolas@gmail.com</a>
+                            <div className={`main-text`}>
                                 ⋅
                             </div>
                             <div className="second-text">
-                                Brussels, Belgium
+                                Paris/Brussels
                             </div>
-                            <div className={`main-text ${classSize}`}>
+                            <div className={`main-text`}>
                                 ⋅
                             </div>
                             <div className="second-text">
@@ -73,7 +71,7 @@ const MainPanel = ({ experiences, projects }) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     )
 }
