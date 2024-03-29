@@ -12,7 +12,7 @@ const App = () => {
     < ThemeContext.Provider value={theme}>
       < SizeContext.Provider value={size}>
         <ResumeReminder />
-        <div className="flex-text">
+        <div className="icons">
           <div
             onClick={() => setTheme(theme == 'light' ? 'dark' : 'light')}
             style={{ cursor: "pointer", marginLeft: '10px' }}
@@ -23,7 +23,7 @@ const App = () => {
             onClick={() => setSize(size == 'big' ? 'normal' : 'big')}
             style={{ cursor: "pointer", marginLeft: '10px' }}
           >
-            🔎
+            A+
           </div >
         </div>
       </SizeContext.Provider>
