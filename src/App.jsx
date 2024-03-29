@@ -13,17 +13,17 @@ const App = () => {
       < SizeContext.Provider value={size}>
         <ResumeReminder />
         <div className="icons">
-          <div
+          <div className="switcher theme-switcher"
             onClick={() => setTheme(theme == 'light' ? 'dark' : 'light')}
-            style={{ cursor: "pointer", marginLeft: '10px' }}
           >
             ☀️
           </div >
-          <div
+          <div className="switcher size-switcher"
             onClick={() => setSize(size == 'big' ? 'normal' : 'big')}
-            style={{ cursor: "pointer", marginLeft: '10px' }}
           >
-            A+
+            {/* here two letter A but with two different sizes */}
+            <span style={{ fontSize: "8px" }}>A</span>
+            <span style={{ fontSize: "12px" }}>A</span>
           </div >
         </div>
       </SizeContext.Provider>
