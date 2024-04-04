@@ -54,6 +54,23 @@
 
 .theme-switcher {
   margin-bottom: 8px;
+
+}
+
+@media (min-width: 768px) {
+  .cliTablet {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    width: 300px;
+    z-index: -10;
+  }
+}
+
+@media (max-width: 768px) {
+  .cliTablet {
+    display: none;
+  }
 }
 
 /* #### FILTERS ####### */
@@ -75,6 +92,20 @@ h1 {
 
 
 /* ///// ANIMATION ////  */
+/* .theme-switcher:hover,
+.theme-switcher:active,
+.switcher:hover,
+.switcher:active {
+  animation: bounce 0.6s ease;
+  -webkit-animation: bounce 0.6s ease;
+  transform: scale(2.1);
+}
+
+.circleLogoFilled:hover,
+.circleLogoFilled:active {
+  animation: bounce 0.6s ease;
+  -webkit-animation: bounce 0.6s ease;
+} */
 
 @keyframes logo-spin {
   from {
@@ -92,12 +123,6 @@ h1 {
     animation: logo-spin infinite 1s linear;
   }
 
-}
-
-.circleLogoFilled:hover:hover,
-.circleLogoFilled:active {
-  /* animation: bounce 0.6s ease;
-  -webkit-animation: bounce 0.6s ease; */
 }
 
 @keyframes bounce {

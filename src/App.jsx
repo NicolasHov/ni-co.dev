@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import reactLogo from './assets/images/react.svg'
+import cliTablet from './assets/images/cli-tablet.png'
 import './App.css'
 import "./Typography.css"
 import { ResumeReminder } from './components/ResumeReminder/ResumeReminder'
@@ -25,6 +25,7 @@ const App = () => {
             <span style={{ fontSize: "12px" }}>A</span>
           </div >
         </div>
+        <img src={cliTablet} className="cliTablet" alt="code tablet" />
       </SizeContext.Provider>
     </ThemeContext.Provider>
   )
