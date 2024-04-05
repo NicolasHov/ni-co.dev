@@ -4,7 +4,7 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ['Nicolashov/1-block-scroll-only-on-mobiledesktop-devices']
+    branches: ['stable']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
