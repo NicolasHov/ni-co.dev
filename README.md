@@ -8,7 +8,7 @@
 
 - [X] add more readable mode
 
-- [ ] Add responsive
+- [X] Add responsive
 
 - [ ] connect to a DB/JSON : WIP
 
