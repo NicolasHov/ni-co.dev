@@ -4,7 +4,7 @@ import './App.css'
 import "./Typography.css"
 import { ResumeReminder } from './components/ResumeReminder/ResumeReminder'
 import { ThemeContext, SizeContext } from './contexts.js';
-import useScrollBlock from "./components/hooks/useScrollBlock.js";
+import { useScrollBlock } from "./components/hooks/useScrollBlock.js";
 import { useWindowSize } from "./components/hooks/useWindowSize.js";
 
 const App = () => {

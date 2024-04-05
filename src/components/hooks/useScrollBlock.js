@@ -3,7 +3,7 @@ import { useRef } from 'react';
 
 const safeDocument = typeof document !== 'undefined' ? document : {};
 
-export default () => {
+export function useScrollBlock() {
     const scrollBlocked = useRef();
     const html = safeDocument.documentElement;
     const { body } = safeDocument;
