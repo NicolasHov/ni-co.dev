@@ -8,6 +8,8 @@
 
 - [X] add more readable mode
 
+- [ ] Add responsive
+
 - [ ] connect to a DB/JSON : WIP
 
 - [ ] add achievements (algo tests)
