@@ -1,3 +1,5 @@
+![example branch parameter](https://github.com/NicolasHov/ni-co.dev/actions/workflows/ghpages.yml/badge.svg?branch=stable)
+
 # Getting started
 
 # Roadmap
@@ -6,15 +8,13 @@
 
 - [X] add more readable mode
 
-- [ ] add sass 
+- [X] Add responsive
+
+- [ ] connect to a DB/JSON : WIP
 
 - [ ] add achievements (algo tests)
 
-- [ ] update light mode
-
 - [ ] add modal with terminal
-
-- [ ] connect to a DB
 
 - [ ] connect to storybook
 
